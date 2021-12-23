@@ -10,6 +10,9 @@ UART2
 - PB16 - UART TX - Coral Pin 30 UART RX (/dev/ttyS1)
 - PB17 - UART RX - Coral Pin 29 UART TX (/dev/ttyS1)
 
+Coral Enable
+PB23
+
 SPI1
 - PA13 - SCK
 - PA12 - MOSI 
