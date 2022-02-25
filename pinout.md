@@ -13,11 +13,14 @@ UART2 - SERCOM0
 RF Enable
 - Anything convenient
 
-Coral Enable
+Coral Power Enable
 - PB23
 
+Coral Enable
+- PA22
+
 Thermistor
-- PA02
+- PA05 (AIN5)
 
 SPI1 - SERCOM2
 - PA13 - SCK
