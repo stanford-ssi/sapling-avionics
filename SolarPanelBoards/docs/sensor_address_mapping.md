@@ -1,9 +1,12 @@
+# Light Sensors
 
-I2C1
+## I2C1
+
 Z- 0x44
-Z+ 
+Z+ 0x45
 
-I2C2
+## I2C2
+
 X- 0x44
 X+ 0x45
 Y+ 0x46
