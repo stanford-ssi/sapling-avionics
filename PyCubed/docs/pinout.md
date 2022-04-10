@@ -22,6 +22,9 @@ Check page 40/41 of SAMD51 data sheet for SERCOM configurations
 ## Thermistor
 - PA05 (AIN5)
 
+## Thermistor Enable
+- PA20
+
 ## SPI1 - SERCOM2
 - PA13 - SCK
 - PA12 - MOSI 
