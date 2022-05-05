@@ -1,4 +1,4 @@
-19991272359515866
+19996215547884591
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -86275,12 +86275,33 @@ Zigbee_Module_MRF24J40MD
 12
 12
 sapling
+AP.12F_Taoglas
+
+
+0
+0
+0
+sapling
+BSS138DWQ-7
+SOT36325
+MOSFET (N-Channel)
+0
+6
+6
+sapling
 Burn_Wire_Connection
 
 
 0
 8
 2
+sapling
+CoralCamera
+
+
+0
+0
+0
 sapling
 DO-214AC
 Diode Footprint for CDBA240LL-HF
