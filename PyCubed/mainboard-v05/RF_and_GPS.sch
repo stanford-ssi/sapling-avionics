@@ -134,17 +134,17 @@ $EndComp
 $Comp
 L Connector:Conn_Coaxial J7
 U 1 1 5D3A5EA0
-P 3100 5100
-F 0 "J7" V 3337 5029 50  0000 C CNN
-F 1 "Amphenol_901-144" V 3246 5029 50  0000 C CNN
-F 2 "mainboard:SMA_901-144-horizontal" H 3100 5100 50  0001 C CNN
-F 3 "https://www.amphenolrf.com/library/download/link/link_id/593640/parent/901-144/" H 3100 5100 50  0001 C CNN
-F 4 "Amphenol RF SMA " H 3100 5100 50  0001 C CNN "Description"
-F 5 "901-144" H 3100 5100 50  0001 C CNN "Flight"
-F 6 "Amphenol" H 3337 5129 50  0001 C CNN "Manufacturer_Name"
-F 7 "901-144" H 3337 5129 50  0001 C CNN "Manufacturer_Part_Number"
-F 8 "901-144" H 3100 5100 50  0001 C CNN "Proto"
-	1    3100 5100
+P 3400 4500
+F 0 "J7" V 3637 4429 50  0000 C CNN
+F 1 "Amphenol_901-144" V 3546 4429 50  0000 C CNN
+F 2 "mainboard:SMA_901-144-horizontal" H 3400 4500 50  0001 C CNN
+F 3 "https://www.amphenolrf.com/library/download/link/link_id/593640/parent/901-144/" H 3400 4500 50  0001 C CNN
+F 4 "Amphenol RF SMA " H 3400 4500 50  0001 C CNN "Description"
+F 5 "901-144" H 3400 4500 50  0001 C CNN "Flight"
+F 6 "Amphenol" H 3637 4529 50  0001 C CNN "Manufacturer_Name"
+F 7 "901-144" H 3637 4529 50  0001 C CNN "Manufacturer_Part_Number"
+F 8 "901-144" H 3400 4500 50  0001 C CNN "Proto"
+	1    3400 4500
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -164,164 +164,57 @@ $EndComp
 $Comp
 L mainboard:RFM98PW U23
 U 1 1 5D44FE4A
-P 1950 5600
-F 0 "U23" H 1750 6050 59  0000 C CNN
-F 1 "RFM98PW" H 2050 5150 50  0001 C CNN
-F 2 "mainboard:RFM95PW" H 2050 5050 50  0001 C CNN
-F 3 "" H 1950 5600 50  0001 C CNN
-F 4 "433 MHz 1W Radio" H 1950 5600 50  0001 C CNN "Description"
-F 5 "RFM98PW" H 1950 5600 50  0001 C CNN "Flight"
-F 6 "HopeRF" H 1950 5600 50  0001 C CNN "Manufacturer_Name"
-F 7 "RFM98PW" H 1750 6150 50  0001 C CNN "Manufacturer_Part_Number"
-F 8 "RFM98PW" H 1950 5600 50  0001 C CNN "Proto"
-	1    1950 5600
+P 2250 5000
+F 0 "U23" H 2050 5450 59  0000 C CNN
+F 1 "RFM98PW" H 2350 4550 50  0001 C CNN
+F 2 "mainboard:RFM95PW" H 2350 4450 50  0001 C CNN
+F 3 "" H 2250 5000 50  0001 C CNN
+F 4 "433 MHz 1W Radio" H 2250 5000 50  0001 C CNN "Description"
+F 5 "RFM98PW" H 2250 5000 50  0001 C CNN "Flight"
+F 6 "HopeRF" H 2250 5000 50  0001 C CNN "Manufacturer_Name"
+F 7 "RFM98PW" H 2050 5550 50  0001 C CNN "Manufacturer_Part_Number"
+F 8 "RFM98PW" H 2250 5000 50  0001 C CNN "Proto"
+	1    2250 5000
 	1    0    0    -1  
 $EndComp
 $Comp
 L mainboard:GND #GND?
 U 1 1 5D460268
-P 3300 6100
+P 3600 5500
 AR Path="/5D460268" Ref="#GND?"  Part="1" 
 AR Path="/5CEC6281/5D460268" Ref="#GND0103"  Part="1" 
-F 0 "#GND0103" H 3300 6100 50  0001 C CNN
-F 1 "GND" H 3200 6000 59  0000 L BNN
-F 2 "" H 3300 6100 50  0001 C CNN
-F 3 "" H 3300 6100 50  0001 C CNN
-	1    3300 6100
+F 0 "#GND0103" H 3600 5500 50  0001 C CNN
+F 1 "GND" H 3500 5400 59  0000 L BNN
+F 2 "" H 3600 5500 50  0001 C CNN
+F 3 "" H 3600 5500 50  0001 C CNN
+	1    3600 5500
 	-1   0    0    -1  
-$EndComp
-$Comp
-L mainboard:RFM9xBreakout U15
-U 1 1 5D71599E
-P 5200 7050
-F 0 "U15" H 4900 7550 50  0000 C CNN
-F 1 "RFM9xBreakout" H 5200 6550 50  0000 C CNN
-F 2 "RF_Module:HOPERF_RFM9XW_SMD" H 4550 6500 50  0001 L CNN
-F 3 "" H 6650 7450 50  0001 L CNN
-F 4 "DNI" H 5200 7050 50  0000 C CNB "DNI"
-	1    5200 7050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_Coaxial J12
-U 1 1 5D7326B2
-P 6150 7400
-F 0 "J12" H 6150 7550 50  0000 C CNN
-F 1 "Amphenol_901-144" H 6550 7250 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_901-144_Vertical" H 6150 7400 50  0001 C CNN
-F 3 "https://www.amphenolrf.com/library/download/link/link_id/593640/parent/901-144/" H 6150 7400 50  0001 C CNN
-F 4 "DNI" H 6300 7400 50  0000 C CNB "DNI"
-F 5 "Amphenol RF SMA " H 6150 7400 50  0001 C CNN "Description"
-F 6 "901-144" H 6150 7400 50  0001 C CNN "Flight"
-F 7 "Amphenol" H 6150 7650 50  0001 C CNN "Manufacturer_Name"
-F 8 "901-144" H 6150 7650 50  0001 C CNN "Manufacturer_Part_Number"
-F 9 "901-144" H 6150 7400 50  0001 C CNN "Proto"
-	1    6150 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L mainboard:GND #GND?
-U 1 1 5D738978
-P 6150 7700
-AR Path="/5D738978" Ref="#GND?"  Part="1" 
-AR Path="/5CEC6281/5D738978" Ref="#GND0105"  Part="1" 
-F 0 "#GND0105" H 6150 7700 50  0001 C CNN
-F 1 "GND" H 6050 7600 59  0000 L BNN
-F 2 "" H 6150 7700 50  0001 C CNN
-F 3 "" H 6150 7700 50  0001 C CNN
-	1    6150 7700
-	-1   0    0    -1  
-$EndComp
-$Comp
-L mainboard:GND #GND?
-U 1 1 5D74B366
-P 4550 7500
-AR Path="/5D74B366" Ref="#GND?"  Part="1" 
-AR Path="/5CEC6281/5D74B366" Ref="#GND0106"  Part="1" 
-F 0 "#GND0106" H 4550 7500 50  0001 C CNN
-F 1 "GND" H 4450 7400 59  0000 L BNN
-F 2 "" H 4550 7500 50  0001 C CNN
-F 3 "" H 4550 7500 50  0001 C CNN
-	1    4550 7500
-	-1   0    0    -1  
-$EndComp
-$Comp
-L mainboard:RFM98PW U24
-U 1 1 5D73ADF1
-P 5100 5600
-F 0 "U24" H 4900 6050 59  0000 C CNN
-F 1 "RFM98PW" H 5200 5150 50  0001 C CNN
-F 2 "mainboard:RFM95PW" H 5200 5050 50  0001 C CNN
-F 3 "" H 5100 5600 50  0001 C CNN
-F 4 "DNI" H 5200 5550 50  0000 C CNB "DNI"
-	1    5100 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L mainboard:10KOHM-1_10W-1%(0603)0603 R?
-U 1 1 5E052CBF
-P 4050 5300
-AR Path="/5E052CBF" Ref="R?"  Part="1" 
-AR Path="/5CEC6281/5E052CBF" Ref="R43"  Part="1" 
-F 0 "R43" V 3997 5232 59  0000 R CNN
-F 1 "10k" V 4102 5232 59  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 4050 5300 50  0001 C CNN
-F 3 "" H 4050 5300 50  0001 C CNN
-F 4 "10k 0603" H 3997 5332 50  0001 C CNN "Description"
-	1    4050 5300
-	0    1    1    0   
 $EndComp
 $Comp
 L mainboard:10KOHM-1_10W-1%(0603)0603 R?
 U 1 1 5E073EBC
-P 900 5300
+P 1200 4700
 AR Path="/5E073EBC" Ref="R?"  Part="1" 
 AR Path="/5CEC6281/5E073EBC" Ref="R5"  Part="1" 
-F 0 "R5" V 847 5232 59  0000 R CNN
-F 1 "10k" V 952 5232 59  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 900 5300 50  0001 C CNN
-F 3 "" H 900 5300 50  0001 C CNN
-F 4 "10k 0603" H 847 5332 50  0001 C CNN "Description"
-	1    900  5300
+F 0 "R5" V 1147 4632 59  0000 R CNN
+F 1 "10k" V 1252 4632 59  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1200 4700 50  0001 C CNN
+F 3 "" H 1200 4700 50  0001 C CNN
+F 4 "10k 0603" H 1147 4732 50  0001 C CNN "Description"
+	1    1200 4700
 	0    1    1    0   
-$EndComp
-$Comp
-L mainboard:GND #GND?
-U 1 1 5D75C601
-P 5900 6100
-AR Path="/5D75C601" Ref="#GND?"  Part="1" 
-AR Path="/5CEC6281/5D75C601" Ref="#GND0107"  Part="1" 
-F 0 "#GND0107" H 5900 6100 50  0001 C CNN
-F 1 "GND" H 5800 6000 59  0000 L BNN
-F 2 "" H 5900 6100 50  0001 C CNN
-F 3 "" H 5900 6100 50  0001 C CNN
-	1    5900 6100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L mainboard:3.3V #SUPPLY?
-U 1 1 6091097D
-P 4050 5000
-AR Path="/6091097D" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5CEC6281/6091097D" Ref="#SUPPLY0104"  Part="1" 
-F 0 "#SUPPLY0104" H 4050 5000 50  0001 C CNN
-F 1 "3.3V" H 3950 5150 59  0000 L BNN
-F 2 "" H 4050 5000 50  0001 C CNN
-F 3 "" H 4050 5000 50  0001 C CNN
-	1    4050 5000
-	1    0    0    -1  
 $EndComp
 $Comp
 L mainboard:3.3V #SUPPLY?
 U 1 1 6091151B
-P 900 5000
+P 1200 4400
 AR Path="/6091151B" Ref="#SUPPLY?"  Part="1" 
 AR Path="/5CEC6281/6091151B" Ref="#SUPPLY0109"  Part="1" 
-F 0 "#SUPPLY0109" H 900 5000 50  0001 C CNN
-F 1 "3.3V" H 800 5150 59  0000 L BNN
-F 2 "" H 900 5000 50  0001 C CNN
-F 3 "" H 900 5000 50  0001 C CNN
-	1    900  5000
+F 0 "#SUPPLY0109" H 1200 4400 50  0001 C CNN
+F 1 "3.3V" H 1100 4550 59  0000 L BNN
+F 2 "" H 1200 4400 50  0001 C CNN
+F 3 "" H 1200 4400 50  0001 C CNN
+	1    1200 4400
 	1    0    0    -1  
 $EndComp
 Text GLabel 8650 3750 0    10   BiDi ~ 0
@@ -338,87 +231,43 @@ Text GLabel 7150 4550 0    50   BiDi ~ 0
 RX
 Text Label 8800 3550 1    50   ~ 0
 RF_IN
-Text GLabel 7150 4850 0    50   BiDi ~ 0
-GPS_PWR_IN
 Text GLabel 9750 4300 2    50   BiDi ~ 0
 GPS_PWR_IN
 Text Notes 7500 3500 0    100  ~ 0
 GPS Module
 Text Notes 8650 2150 0    100  ~ 0
        RF Splitter \n(2 Way, 0deg DC-Pass)
-Text Notes 1550 4450 0    150  ~ 0
-Modular Radios (HopeRF format)
-Text GLabel 850  5500 0    50   BiDi ~ 0
+Text Notes 1550 3850 0    150  ~ 0
+ Modular Radio \n(HopeRF format)
+Text GLabel 1150 4900 0    50   BiDi ~ 0
 RF1_CS
-Text GLabel 3300 5300 0    10   BiDi ~ 0
+Text GLabel 3600 4700 0    10   BiDi ~ 0
 GND
-Text Notes 1950 4750 0    85   ~ 0
+Text Notes 2250 4150 0    85   ~ 0
 Radio #1
-Text GLabel 1350 5900 0    50   BiDi ~ 0
+Text GLabel 1650 5300 0    50   BiDi ~ 0
 RF1_IO0
-Text GLabel 1350 5400 0    50   BiDi ~ 0
+Text GLabel 1650 4800 0    50   BiDi ~ 0
 RF1_RST
 Text Notes 7600 6950 0    200  ~ 40
 Radio, GPS, Payloads
-Text GLabel 6150 7600 2    10   BiDi ~ 0
-GND
-Text GLabel 4600 7200 0    50   BiDi ~ 0
-RF2_RST
-Text GLabel 5750 7100 2    50   BiDi ~ 0
-RF2_IO4
-Text GLabel 4550 7400 2    10   BiDi ~ 0
-GND
-Text GLabel 4000 5500 0    50   BiDi ~ 0
-RF2_CS
-Text GLabel 4500 5400 0    50   BiDi ~ 0
-RF2_RST
-Text Label 2650 5300 0    50   ~ 0
+Text Label 2950 4700 0    50   ~ 0
 RF1_ANT
-Text Label 5650 7400 0    50   ~ 0
-RF2_ANT
-Text Label 6150 5300 2    50   ~ 0
-RF2_ANT
-Text GLabel 5900 5600 2    50   BiDi ~ 0
-RF2_IO4
-Text GLabel 4500 5900 0    50   BiDi ~ 0
-RF2_IO0
-Text GLabel 5750 7000 2    50   BiDi ~ 0
-RF2_IO0
-Text GLabel 2750 5600 2    50   BiDi ~ 0
+Text GLabel 3050 5000 2    50   BiDi ~ 0
 RF1_IO4
-Text GLabel 1450 5300 0    10   BiDi ~ 0
+Text GLabel 1750 4700 0    10   BiDi ~ 0
 3.3V
 Text Notes 2000 750  0    150  ~ 0
 Google Coral Payload Power Converter
-Text Notes 5200 4750 0    85   ~ 0
-Radio #2
 Text Notes 7000 6500 0    65   ~ 0
 NOTE: Components labeled "do not install" (DNI) are not populated by default
-Text GLabel 4500 5700 0    50   Input ~ 0
-MOSI_RF2
-Text GLabel 4500 5600 0    50   Input ~ 0
-SCK_RF2
-Text GLabel 4500 5800 0    50   Output ~ 0
-MISO_RF2
-Text GLabel 4600 6800 0    50   Input ~ 0
-MOSI_RF2
-Text GLabel 4600 6900 0    50   Input ~ 0
-SCK_RF2
-Text GLabel 4600 6700 0    50   Output ~ 0
-MISO_RF2
-Text GLabel 1350 5700 0    50   Input ~ 0
+Text GLabel 1650 5100 0    50   Input ~ 0
 MOSI_RF1
-Text GLabel 1350 5600 0    50   Input ~ 0
+Text GLabel 1650 5000 0    50   Input ~ 0
 SCK_RF1
-Text GLabel 1350 5800 0    50   Output ~ 0
+Text GLabel 1650 5200 0    50   Output ~ 0
 MISO_RF1
-Text GLabel 5900 6000 2    10   BiDi ~ 0
-GND
-Text GLabel 5200 4900 2    50   BiDi ~ 0
-VCC_RF2
-Text GLabel 5200 6400 2    50   BiDi ~ 0
-VCC_RF2
-Text GLabel 2050 4900 2    50   BiDi ~ 0
+Text GLabel 2350 4300 2    50   BiDi ~ 0
 VCC_RF1
 Wire Wire Line
 	8650 3750 9250 3750
@@ -437,7 +286,7 @@ Wire Wire Line
 Wire Wire Line
 	10100 3150 10300 3150
 Wire Wire Line
-	1450 5300 1150 5300
+	1750 4700 1450 4700
 Wire Wire Line
 	7250 4650 7150 4650
 Wire Wire Line
@@ -453,71 +302,31 @@ Wire Wire Line
 Wire Wire Line
 	8650 4150 9250 4150
 Wire Wire Line
-	1450 5700 1350 5700
+	1750 5100 1650 5100
 Wire Wire Line
-	1450 5800 1350 5800
+	1750 5200 1650 5200
 Wire Wire Line
-	1450 5600 1350 5600
+	1750 5000 1650 5000
 Wire Wire Line
-	2650 6000 3300 6000
+	2950 5400 3600 5400
 Wire Wire Line
-	2650 5300 3100 5300
+	2950 4700 3400 4700
 Wire Wire Line
-	3300 5100 3300 6000
+	3600 4500 3600 5400
 Wire Wire Line
-	1350 5900 1450 5900
+	1650 5300 1750 5300
 Wire Wire Line
-	1450 5400 1350 5400
+	1750 4800 1650 4800
 Wire Wire Line
-	4700 6800 4600 6800
+	3050 5000 2950 5000
 Wire Wire Line
-	4700 6700 4600 6700
-Wire Wire Line
-	4700 6900 4600 6900
-Wire Wire Line
-	5950 7400 5650 7400
-Wire Wire Line
-	4700 7200 4600 7200
-Wire Wire Line
-	5750 7100 5650 7100
-Wire Wire Line
-	4550 7400 4700 7400
-Wire Wire Line
-	4600 5700 4500 5700
-Wire Wire Line
-	4600 5800 4500 5800
-Wire Wire Line
-	4600 5600 4500 5600
-Wire Wire Line
-	4600 5500 4050 5500
-Wire Wire Line
-	4600 5400 4500 5400
-Wire Wire Line
-	5800 5300 6150 5300
-Wire Wire Line
-	5900 5600 5800 5600
-Wire Wire Line
-	4600 5900 4500 5900
-Wire Wire Line
-	5650 7000 5750 7000
-Wire Wire Line
-	2750 5600 2650 5600
-Wire Wire Line
-	4050 5500 4000 5500
-Wire Wire Line
-	4050 5100 4050 5000
-Wire Wire Line
-	900  5100 900  5000
+	1200 4500 1200 4400
 Wire Wire Line
 	8800 2750 8800 3850
 Wire Wire Line
-	900  5500 1450 5500
+	1200 4900 1750 4900
 Wire Wire Line
-	850  5500 900  5500
-Wire Wire Line
-	4050 7000 4700 7000
-Wire Wire Line
-	4050 7000 4050 5500
+	1150 4900 1200 4900
 Wire Wire Line
 	9250 4150 9250 4300
 Wire Notes Line
@@ -525,23 +334,11 @@ Wire Notes Line
 Wire Notes Line
 	6950 6400 11200 6400
 Wire Wire Line
-	5900 6000 5800 6000
+	1450 4700 1450 4500
 Wire Wire Line
-	4600 5300 4250 5300
+	1450 4500 1200 4500
 Wire Wire Line
-	4250 5300 4250 5100
-Wire Wire Line
-	4250 5100 4050 5100
-Wire Wire Line
-	1150 5300 1150 5100
-Wire Wire Line
-	1150 5100 900  5100
-Wire Wire Line
-	5200 6400 5200 6500
-Wire Wire Line
-	5200 4900 5200 5000
-Wire Wire Line
-	2050 4900 2050 5000
+	2350 4300 2350 4400
 Wire Wire Line
 	10300 2750 10300 3150
 Wire Wire Line
@@ -550,16 +347,11 @@ Connection ~ 9250 3950
 Connection ~ 10300 3150
 Connection ~ 7250 4850
 Connection ~ 10300 2750
-Connection ~ 3300 6000
-Connection ~ 4050 5500
-Connection ~ 900  5500
-Connection ~ 4050 5100
-Connection ~ 900  5100
-NoConn ~ 2650 5700
-NoConn ~ 2650 5500
-NoConn ~ 5800 5500
-NoConn ~ 4600 6000
-NoConn ~ 5800 5700
+Connection ~ 3600 5400
+Connection ~ 1200 4900
+Connection ~ 1200 4500
+NoConn ~ 2950 5100
+NoConn ~ 2950 4900
 NoConn ~ 7250 4350
 NoConn ~ 7250 4450
 NoConn ~ 7250 4150
@@ -574,72 +366,37 @@ NoConn ~ 8650 4650
 NoConn ~ 8650 4750
 NoConn ~ 8650 4850
 NoConn ~ 8650 4950
-NoConn ~ 5650 6900
-NoConn ~ 1450 6000
-NoConn ~ 5650 7200
-NoConn ~ 5650 6700
-NoConn ~ 2650 5400
-NoConn ~ 5650 6800
-NoConn ~ 5800 5400
+NoConn ~ 1750 5400
+NoConn ~ 2950 4800
 $Comp
 L Device:C_Small C?
 U 1 1 60DAB7E8
-P 1800 4900
+P 2100 4300
 AR Path="/5CEC5DDE/60DAB7E8" Ref="C?"  Part="1" 
 AR Path="/5CEC6281/60DAB7E8" Ref="C44"  Part="1" 
-F 0 "C44" V 2029 4900 50  0000 C CNN
-F 1 "10uF" V 1938 4900 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1800 4900 50  0001 C CNN
-F 3 "" H 1800 4900 50  0001 C CNN
-F 4 "10uF +-20% 10V X5R" H 1800 4900 50  0001 C CNN "Description"
-	1    1800 4900
+F 0 "C44" V 2329 4300 50  0000 C CNN
+F 1 "10uF" V 2238 4300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2100 4300 50  0001 C CNN
+F 3 "" H 2100 4300 50  0001 C CNN
+F 4 "10uF +-20% 10V X5R" H 2100 4300 50  0001 C CNN "Description"
+	1    2100 4300
 	0    -1   -1   0   
 $EndComp
 $Comp
 L mainboard:GND #GND?
 U 1 1 60DAEC8A
-P 1700 5000
+P 2000 4400
 AR Path="/60DAEC8A" Ref="#GND?"  Part="1" 
 AR Path="/5CEC6281/60DAEC8A" Ref="#GND036"  Part="1" 
-F 0 "#GND036" H 1700 5000 50  0001 C CNN
-F 1 "GND" H 1600 4900 59  0000 L BNN
-F 2 "" H 1700 5000 50  0001 C CNN
-F 3 "" H 1700 5000 50  0001 C CNN
-	1    1700 5000
+F 0 "#GND036" H 2000 4400 50  0001 C CNN
+F 1 "GND" H 1900 4300 59  0000 L BNN
+F 2 "" H 2000 4400 50  0001 C CNN
+F 3 "" H 2000 4400 50  0001 C CNN
+	1    2000 4400
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	2050 4900 1900 4900
-$Comp
-L Device:C_Small C?
-U 1 1 60FC9C34
-P 4950 4900
-AR Path="/5CEC5DDE/60FC9C34" Ref="C?"  Part="1" 
-AR Path="/5CEC6281/60FC9C34" Ref="C46"  Part="1" 
-F 0 "C46" V 5179 4900 50  0000 C CNN
-F 1 "10uF" V 5088 4900 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4950 4900 50  0001 C CNN
-F 3 "" H 4950 4900 50  0001 C CNN
-F 4 "10uF +-20% 10V X5R" H 4950 4900 50  0001 C CNN "Description"
-F 5 "DNI" V 4950 5100 50  0000 C CNB "DNI"
-	1    4950 4900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L mainboard:GND #GND?
-U 1 1 60FC9C3A
-P 4850 5000
-AR Path="/60FC9C3A" Ref="#GND?"  Part="1" 
-AR Path="/5CEC6281/60FC9C3A" Ref="#GND038"  Part="1" 
-F 0 "#GND038" H 4850 5000 50  0001 C CNN
-F 1 "GND" H 4750 4900 59  0000 L BNN
-F 2 "" H 4850 5000 50  0001 C CNN
-F 3 "" H 4850 5000 50  0001 C CNN
-	1    4850 5000
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	5200 4900 5050 4900
+	2350 4300 2200 4300
 $Comp
 L mainboard:22UF-0805-6.3V-20% C?
 U 1 1 6219CF3D
@@ -992,11 +749,11 @@ F 8 "TPS54226PWPR" H 5050 2550 50  0001 C CNN "Proto"
 	-1   0    0    1   
 $EndComp
 Text GLabel 5050 1650 2    50   BiDi ~ 0
-PB23
+ENAB_CORAL
 Wire Wire Line
 	4950 1950 4950 1650
-Text Notes 5400 1650 0    50   ~ 0
-Note: PB23 must be ran \nhigh to enable power to \nGoogle Coral!\nEN_Low < 0.4V, PB23 Low = 0V\nEN_High > 1.5V, PB23 High = 3.3V\nPull down resistor of 300KOhm \nused to keep the pin from floating\nwhen pycubed powered off, \nuses about 36uW 
+Text Notes 5650 1750 0    50   ~ 0
+Note: PB23 (ENAB_CORAL) must be ran \nhigh to enable power to \nGoogle Coral!\nEN_Low < 0.4V, PB23 Low = 0V\nEN_High > 1.5V, PB23 High = 3.3V\nPull down resistor of 300KOhm \nused to keep the pin from floating\nwhen pycubed powered off, \nuses about 36uW 
 Wire Wire Line
 	4950 1650 5050 1650
 Wire Wire Line
@@ -1033,45 +790,4 @@ F 3 "" H 4950 1000 50  0001 C CNN
 $EndComp
 Text GLabel 4950 1100 0    10   BiDi ~ 0
 GND
-Text GLabel 3600 3400 2    50   BiDi ~ 0
-5V
-Wire Wire Line
-	3600 3400 3500 3400
-Wire Wire Line
-	3500 3500 3900 3500
-$Comp
-L mainboard:GND #GND?
-U 1 1 6223BCDF
-P 4000 3500
-AR Path="/6223BCDF" Ref="#GND?"  Part="1" 
-AR Path="/5CEC5DDE/6223BCDF" Ref="#GND?"  Part="1" 
-AR Path="/5CEC6281/6223BCDF" Ref="#GND037"  Part="1" 
-F 0 "#GND037" H 4000 3500 50  0001 C CNN
-F 1 "GND" H 3900 3400 59  0000 L BNN
-F 2 "" H 4000 3500 50  0001 C CNN
-F 3 "" H 4000 3500 50  0001 C CNN
-	1    4000 3500
-	0    -1   -1   0   
-$EndComp
-Text GLabel 3850 3500 1    10   BiDi ~ 0
-GND
-$Comp
-L mainboard:874370443 J4
-U 1 1 61D5B2EA
-P 3300 3600
-F 0 "J4" H 3343 3225 50  0000 C CNN
-F 1 "874370443" H 3300 3200 50  0001 L BNN
-F 2 "MOLEX_874370443" V 3700 3300 50  0001 L BNN
-F 3 "" H 3300 3600 50  0001 L BNN
-	1    3300 3600
-	-1   0    0    1   
-$EndComp
-Text GLabel 3600 3600 2    50   BiDi ~ 0
-PB16
-Text GLabel 3600 3700 2    50   BiDi ~ 0
-PB17
-Wire Wire Line
-	3500 3700 3600 3700
-Wire Wire Line
-	3500 3600 3600 3600
 $EndSCHEMATC

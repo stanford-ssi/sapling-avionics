@@ -16,37 +16,37 @@ $EndDescr
 $Comp
 L mainboard:M023.5MM_LOCK JP?
 U 1 1 1D5F55F3
-P 7950 2050
+P 8250 1650
 AR Path="/1D5F55F3" Ref="JP?"  Part="1" 
 AR Path="/5CEC60EB/1D5F55F3" Ref="J3"  Part="1" 
-F 0 "J3" H 7650 2050 59  0000 L BNN
-F 1 "MOLEX_Sherlock_2pos" H 7750 2300 59  0000 L BNN
-F 2 "mainboard:MOLEX_Sherlock_2pos" H 7950 2050 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/324/4/1985807-1458929.pdf" H 7950 2050 50  0001 C CNN
-F 4 "2-pin Screw Terminal - Side Entry" H 7950 2050 50  0001 C CNN "Description"
-F 5 "1985807" H 7950 2050 50  0001 C CNN "Flight"
-F 6 "Phoenix Contact" H 7950 2050 50  0001 C CNN "Manufacturer_Name"
-F 7 "1985807" H 7650 2150 50  0001 C CNN "Manufacturer_Part_Number"
-F 8 "1985807" H 7950 2050 50  0001 C CNN "Proto"
-	1    7950 2050
+F 0 "J3" H 7950 1650 59  0000 L BNN
+F 1 "MOLEX_Sherlock_2pos" H 8050 1900 59  0000 L BNN
+F 2 "mainboard:MOLEX_Sherlock_2pos" H 8250 1650 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/324/4/1985807-1458929.pdf" H 8250 1650 50  0001 C CNN
+F 4 "2-pin Screw Terminal - Side Entry" H 8250 1650 50  0001 C CNN "Description"
+F 5 "1985807" H 8250 1650 50  0001 C CNN "Flight"
+F 6 "Phoenix Contact" H 8250 1650 50  0001 C CNN "Manufacturer_Name"
+F 7 "1985807" H 7950 1750 50  0001 C CNN "Manufacturer_Part_Number"
+F 8 "1985807" H 8250 1650 50  0001 C CNN "Proto"
+	1    8250 1650
 	1    0    0    1   
 $EndComp
 $Comp
 L mainboard:M023.5MM_LOCK JP?
 U 1 1 6F37A4EE
-P 9550 3300
+P 9850 2900
 AR Path="/6F37A4EE" Ref="JP?"  Part="1" 
 AR Path="/5CEC60EB/6F37A4EE" Ref="J16"  Part="1" 
-F 0 "J16" V 9711 3173 59  0000 R CNN
-F 1 "1985807" V 9606 3173 59  0000 R CNN
-F 2 "mainboard:SCREWTERMINAL-3.5MM-2_LOCK" H 9550 3300 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/324/4/1985807-1458929.pdf" H 9550 3300 50  0001 C CNN
-F 4 "2-pin Screw Terminal - Side Entry" H 9550 3300 50  0001 C CNN "Description"
-F 5 "1985807" H 9550 3300 50  0001 C CNN "Flight"
-F 6 "Phoenix Contact" H 9550 3300 50  0001 C CNN "Manufacturer_Name"
-F 7 "1985807" H 9711 3273 50  0001 C CNN "Manufacturer_Part_Number"
-F 8 "1985807" H 9550 3300 50  0001 C CNN "Proto"
-	1    9550 3300
+F 0 "J16" V 10011 2773 59  0000 R CNN
+F 1 "1985807" V 9906 2773 59  0000 R CNN
+F 2 "mainboard:SCREWTERMINAL-3.5MM-2_LOCK" H 9850 2900 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/324/4/1985807-1458929.pdf" H 9850 2900 50  0001 C CNN
+F 4 "2-pin Screw Terminal - Side Entry" H 9850 2900 50  0001 C CNN "Description"
+F 5 "1985807" H 9850 2900 50  0001 C CNN "Flight"
+F 6 "Phoenix Contact" H 9850 2900 50  0001 C CNN "Manufacturer_Name"
+F 7 "1985807" H 10011 2873 50  0001 C CNN "Manufacturer_Part_Number"
+F 8 "1985807" H 9850 2900 50  0001 C CNN "Proto"
+	1    9850 2900
 	0    1    -1   0   
 $EndComp
 $Comp
@@ -232,130 +232,130 @@ $EndComp
 $Comp
 L power:GNDREF #PWR?
 U 1 1 5E52B364
-P 7050 3500
+P 7350 3100
 AR Path="/5CEC5DDE/5E52B364" Ref="#PWR?"  Part="1" 
 AR Path="/5CEC60EB/5E52B364" Ref="#PWR0101"  Part="1" 
-F 0 "#PWR0101" H 7050 3250 50  0001 C CNN
-F 1 "GNDREF" H 7055 3327 50  0000 C CNN
-F 2 "" H 7050 3500 50  0001 C CNN
-F 3 "" H 7050 3500 50  0001 C CNN
-	1    7050 3500
+F 0 "#PWR0101" H 7350 2850 50  0001 C CNN
+F 1 "GNDREF" H 7355 2927 50  0000 C CNN
+F 2 "" H 7350 3100 50  0001 C CNN
+F 3 "" H 7350 3100 50  0001 C CNN
+	1    7350 3100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 5E526644
-P 7050 2900
+P 7350 2500
 AR Path="/5CEC5DDE/5E526644" Ref="C?"  Part="1" 
 AR Path="/5CEC60EB/5E526644" Ref="C29"  Part="1" 
-F 0 "C29" H 7150 3000 50  0000 L CNN
-F 1 "4.7uF" H 7150 2900 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7050 2900 50  0001 C CNN
-F 3 "" H 7050 2900 50  0001 C CNN
-F 4 "4.7uF +-20% 10V X5R" H 7050 2900 50  0001 C CNN "Description"
-	1    7050 2900
+F 0 "C29" H 7450 2600 50  0000 L CNN
+F 1 "4.7uF" H 7450 2500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7350 2500 50  0001 C CNN
+F 3 "" H 7350 2500 50  0001 C CNN
+F 4 "4.7uF +-20% 10V X5R" H 7350 2500 50  0001 C CNN "Description"
+	1    7350 2500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 5DDEA628
-P 8850 2250
+P 9150 1850
 AR Path="/5CEC5DDE/5DDEA628" Ref="C?"  Part="1" 
 AR Path="/5CEC60EB/5DDEA628" Ref="C24"  Part="1" 
-F 0 "C24" H 8942 2296 50  0000 L CNN
-F 1 "0.1uF" H 8942 2205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8850 2250 50  0001 C CNN
-F 3 "" H 8850 2250 50  0001 C CNN
-F 4 "0.1uF +-10% 50V X7R 0603" H 8850 2250 50  0001 C CNN "Description"
-	1    8850 2250
+F 0 "C24" H 9242 1896 50  0000 L CNN
+F 1 "0.1uF" H 9242 1805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9150 1850 50  0001 C CNN
+F 3 "" H 9150 1850 50  0001 C CNN
+F 4 "0.1uF +-10% 50V X7R 0603" H 9150 1850 50  0001 C CNN "Description"
+	1    9150 1850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 5DDECD90
-P 9250 2250
+P 9550 1850
 AR Path="/5CEC5DDE/5DDECD90" Ref="C?"  Part="1" 
 AR Path="/5CEC60EB/5DDECD90" Ref="C31"  Part="1" 
-F 0 "C31" H 9342 2296 50  0000 L CNN
-F 1 "22uF" H 9342 2205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 9250 2250 50  0001 C CNN
-F 3 "" H 9250 2250 50  0001 C CNN
-F 4 "22uF +-20% 10V X5R" H 9250 2250 50  0001 C CNN "Description"
-	1    9250 2250
+F 0 "C31" H 9642 1896 50  0000 L CNN
+F 1 "22uF" H 9642 1805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9550 1850 50  0001 C CNN
+F 3 "" H 9550 1850 50  0001 C CNN
+F 4 "22uF +-20% 10V X5R" H 9550 1850 50  0001 C CNN "Description"
+	1    9550 1850
 	1    0    0    -1  
 $EndComp
 $Comp
 L mainboard:GND #GND?
 U 1 1 A56E8B01
-P 7850 4000
+P 8150 3600
 AR Path="/A56E8B01" Ref="#GND?"  Part="1" 
 AR Path="/5CEC60EB/A56E8B01" Ref="#GND029"  Part="1" 
-F 0 "#GND029" H 7850 4000 50  0001 C CNN
-F 1 "GND" H 7750 3900 59  0000 L BNN
-F 2 "" H 7850 4000 50  0001 C CNN
-F 3 "" H 7850 4000 50  0001 C CNN
-	1    7850 4000
+F 0 "#GND029" H 8150 3600 50  0001 C CNN
+F 1 "GND" H 8050 3500 59  0000 L BNN
+F 2 "" H 8150 3600 50  0001 C CNN
+F 3 "" H 8150 3600 50  0001 C CNN
+	1    8150 3600
 	1    0    0    -1  
 $EndComp
 $Comp
 L mainboard:M023.5MM_LOCK JP?
 U 1 1 EDD14CA3
-P 8150 3700
+P 8450 3300
 AR Path="/EDD14CA3" Ref="JP?"  Part="1" 
 AR Path="/5CEC60EB/EDD14CA3" Ref="J18"  Part="1" 
-F 0 "J18" H 7850 3650 59  0000 L BNN
-F 1 "1985807" H 7600 3750 59  0000 L BNN
-F 2 "mainboard:SCREWTERMINAL-3.5MM-2_LOCK" H 8150 3700 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/324/4/1985807-1458929.pdf" H 8150 3700 50  0001 C CNN
-F 4 "2-pin Screw Terminal - Side Entry" H 8150 3700 50  0001 C CNN "Description"
-F 5 "1985807" H 8150 3700 50  0001 C CNN "Flight"
-F 6 "Phoenix Contact" H 8150 3700 50  0001 C CNN "Manufacturer_Name"
-F 7 "1985807" H 7850 3750 50  0001 C CNN "Manufacturer_Part_Number"
-F 8 "1985807" H 8150 3700 50  0001 C CNN "Proto"
-	1    8150 3700
+F 0 "J18" H 8150 3250 59  0000 L BNN
+F 1 "1985807" H 7900 3350 59  0000 L BNN
+F 2 "mainboard:SCREWTERMINAL-3.5MM-2_LOCK" H 8450 3300 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/324/4/1985807-1458929.pdf" H 8450 3300 50  0001 C CNN
+F 4 "2-pin Screw Terminal - Side Entry" H 8450 3300 50  0001 C CNN "Description"
+F 5 "1985807" H 8450 3300 50  0001 C CNN "Flight"
+F 6 "Phoenix Contact" H 8450 3300 50  0001 C CNN "Manufacturer_Name"
+F 7 "1985807" H 8150 3350 50  0001 C CNN "Manufacturer_Part_Number"
+F 8 "1985807" H 8450 3300 50  0001 C CNN "Proto"
+	1    8450 3300
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R_US R?
 U 1 1 5E31ADF3
-P 6200 2350
+P 6500 1950
 AR Path="/5CEC5A72/5E31ADF3" Ref="R?"  Part="1" 
 AR Path="/5CEC5DDE/5E31ADF3" Ref="R?"  Part="1" 
 AR Path="/5CEC60EB/5E31ADF3" Ref="R40"  Part="1" 
-F 0 "R40" H 6100 2250 50  0000 C CNN
-F 1 "5.1k" H 6350 2400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6240 2340 50  0001 C CNN
-F 3 "" H 6200 2350 50  0001 C CNN
-F 4 "5.1k 0603" H 6100 2350 50  0001 C CNN "Description"
-	1    6200 2350
+F 0 "R40" H 6400 1850 50  0000 C CNN
+F 1 "5.1k" H 6650 2000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6540 1940 50  0001 C CNN
+F 3 "" H 6500 1950 50  0001 C CNN
+F 4 "5.1k 0603" H 6400 1950 50  0001 C CNN "Description"
+	1    6500 1950
 	1    0    0    1   
 $EndComp
 $Comp
 L Device:R_US R?
 U 1 1 5E31E651
-P 6100 2450
+P 6400 2050
 AR Path="/5CEC5A72/5E31E651" Ref="R?"  Part="1" 
 AR Path="/5CEC5DDE/5E31E651" Ref="R?"  Part="1" 
 AR Path="/5CEC60EB/5E31E651" Ref="R39"  Part="1" 
-F 0 "R39" H 6000 2350 50  0000 C CNN
-F 1 "5.1k" H 5950 2450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6140 2440 50  0001 C CNN
-F 3 "" H 6100 2450 50  0001 C CNN
-F 4 "5.1k 0603" H 6000 2450 50  0001 C CNN "Description"
-	1    6100 2450
+F 0 "R39" H 6300 1950 50  0000 C CNN
+F 1 "5.1k" H 6250 2050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6440 2040 50  0001 C CNN
+F 3 "" H 6400 2050 50  0001 C CNN
+F 4 "5.1k 0603" H 6300 2050 50  0001 C CNN "Description"
+	1    6400 2050
 	1    0    0    1   
 $EndComp
 $Comp
 L power:GNDREF #PWR?
 U 1 1 5E31F57D
-P 6200 2600
+P 6500 2200
 AR Path="/5CEC5DDE/5E31F57D" Ref="#PWR?"  Part="1" 
 AR Path="/5CEC60EB/5E31F57D" Ref="#PWR0107"  Part="1" 
-F 0 "#PWR0107" H 6200 2350 50  0001 C CNN
-F 1 "GNDREF" H 6205 2427 50  0000 C CNN
-F 2 "" H 6200 2600 50  0001 C CNN
-F 3 "" H 6200 2600 50  0001 C CNN
-	1    6200 2600
+F 0 "#PWR0107" H 6500 1950 50  0001 C CNN
+F 1 "GNDREF" H 6505 2027 50  0000 C CNN
+F 2 "" H 6500 2200 50  0001 C CNN
+F 3 "" H 6500 2200 50  0001 C CNN
+	1    6500 2200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -404,35 +404,35 @@ $EndComp
 $Comp
 L mainboard:M023.5MM_LOCK JP?
 U 1 1 5DEA22AB
-P 10000 3300
+P 10300 2900
 AR Path="/5DEA22AB" Ref="JP?"  Part="1" 
 AR Path="/5CEC60EB/5DEA22AB" Ref="J17"  Part="1" 
-F 0 "J17" V 10161 3528 59  0000 L CNN
-F 1 "1985807" V 10056 3528 59  0000 L CNN
-F 2 "mainboard:SCREWTERMINAL-3.5MM-2_LOCK" H 10000 3300 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/324/4/1985807-1458929.pdf" H 10000 3300 50  0001 C CNN
-F 4 "2-pin Screw Terminal - Side Entry" H 10000 3300 50  0001 C CNN "Description"
-F 5 "1985807" H 10000 3300 50  0001 C CNN "Flight"
-F 6 "Phoenix Contact" H 10000 3300 50  0001 C CNN "Manufacturer_Name"
-F 7 "1985807" H 10161 3628 50  0001 C CNN "Manufacturer_Part_Number"
-F 8 "1985807" H 10000 3300 50  0001 C CNN "Proto"
-	1    10000 3300
+F 0 "J17" V 10461 3128 59  0000 L CNN
+F 1 "1985807" V 10356 3128 59  0000 L CNN
+F 2 "mainboard:SCREWTERMINAL-3.5MM-2_LOCK" H 10300 2900 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/324/4/1985807-1458929.pdf" H 10300 2900 50  0001 C CNN
+F 4 "2-pin Screw Terminal - Side Entry" H 10300 2900 50  0001 C CNN "Description"
+F 5 "1985807" H 10300 2900 50  0001 C CNN "Flight"
+F 6 "Phoenix Contact" H 10300 2900 50  0001 C CNN "Manufacturer_Name"
+F 7 "1985807" H 10461 3228 50  0001 C CNN "Manufacturer_Part_Number"
+F 8 "1985807" H 10300 2900 50  0001 C CNN "Proto"
+	1    10300 2900
 	0    1    -1   0   
 $EndComp
 $Comp
 L power:GNDREF #PWR?
 U 1 1 608A8F0D
-P 9050 2400
+P 9350 2000
 AR Path="/5CEC5DDE/608A8F0D" Ref="#PWR?"  Part="1" 
 AR Path="/5CEC60EB/608A8F0D" Ref="#PWR0109"  Part="1" 
-F 0 "#PWR0109" H 9050 2150 50  0001 C CNN
-F 1 "GNDREF" H 9055 2227 50  0000 C CNN
-F 2 "" H 9050 2400 50  0001 C CNN
-F 3 "" H 9050 2400 50  0001 C CNN
-	1    9050 2400
+F 0 "#PWR0109" H 9350 1750 50  0001 C CNN
+F 1 "GNDREF" H 9355 1827 50  0000 C CNN
+F 2 "" H 9350 2000 50  0001 C CNN
+F 3 "" H 9350 2000 50  0001 C CNN
+	1    9350 2000
 	1    0    0    -1  
 $EndComp
-Text GLabel 2300 2600 0    10   BiDi ~ 0
+Text GLabel 2400 2700 0    10   BiDi ~ 0
 GND
 Text GLabel 2300 1900 0    10   BiDi ~ 0
 GND
@@ -450,13 +450,13 @@ Text GLabel 1200 5550 0    50   BiDi ~ 0
 SWDIO
 Text GLabel 2600 1500 2    50   BiDi ~ 0
 SD_CS
-Text Notes 10250 3550 2    59   ~ 0
+Text Notes 10550 3150 2    59   ~ 0
 High Side Switches
-Text Notes 7600 1850 0    85   ~ 0
+Text Notes 7900 1450 0    85   ~ 0
 Battery\nConnection
 Text Notes 1250 5100 0    85   ~ 0
 JTAG
-Text Notes 5200 1200 0    85   ~ 0
+Text Notes 5500 800  0    85   ~ 0
 Power Connectors: USB-C Power Delivery to 2S Li-ion Battery
 Text Notes 1500 1050 0    85   ~ 0
 MicroSD Card
@@ -482,19 +482,19 @@ Text GLabel 1500 4300 0    59   BiDi ~ 0
 FLASH_IO2
 Text Notes 8550 6950 0    200  ~ 40
 Connectors
-Text GLabel 7050 2000 2    50   BiDi ~ 0
+Text GLabel 7350 1600 2    50   BiDi ~ 0
 VBUS_IN
-Text GLabel 6300 2300 2    50   BiDi ~ 0
+Text GLabel 6600 1900 2    50   BiDi ~ 0
 USB_CC2
-Text GLabel 6300 2200 2    50   BiDi ~ 0
+Text GLabel 6600 1800 2    50   BiDi ~ 0
 USB_CC1
-Text GLabel 5650 2600 2    50   BiDi ~ 0
+Text GLabel 5950 2200 2    50   BiDi ~ 0
 USB_D-
-Text GLabel 5650 2700 2    50   BiDi ~ 0
+Text GLabel 5950 2300 2    50   BiDi ~ 0
 USB_D+
-Text Notes 8050 4050 0    59   ~ 0
+Text Notes 8350 3650 0    59   ~ 0
 Low Side Switch
-Text GLabel 7850 3800 0    10   BiDi ~ 0
+Text GLabel 8150 3400 0    10   BiDi ~ 0
 GND
 Text Notes 7000 6500 0    65   ~ 0
 NOTE: Components labeled "do not install" (DNI) are not populated by default
@@ -504,11 +504,11 @@ Text GLabel 2400 1800 2    50   Input ~ 0
 SCK_SD
 Text GLabel 2400 2000 2    50   Output ~ 0
 MISO_SD
-Text Notes 8000 4150 0    59   ~ 0
+Text Notes 8300 3750 0    59   ~ 0
 (Screw Terminals)
-Text Notes 10200 3650 2    59   ~ 0
+Text Notes 10500 3250 2    59   ~ 0
 (Screw Terminals)
-Text GLabel 10200 2650 2    50   BiDi ~ 0
+Text GLabel 10500 2250 2    50   BiDi ~ 0
 VBATT_SENSE
 Wire Wire Line
 	2300 2600 2400 2600
@@ -531,7 +531,7 @@ Wire Wire Line
 Wire Wire Line
 	2950 4100 2950 3800
 Wire Wire Line
-	10100 3000 10100 2650
+	10400 2600 10400 2250
 Wire Wire Line
 	2300 1600 2400 1600
 Wire Wire Line
@@ -541,7 +541,7 @@ Wire Wire Line
 Wire Wire Line
 	2300 1500 2550 1500
 Wire Wire Line
-	8250 2150 8450 2150
+	8550 1750 8750 1750
 Wire Wire Line
 	1200 5450 1400 5450
 Wire Wire Line
@@ -571,45 +571,45 @@ Wire Wire Line
 Wire Wire Line
 	1500 4300 1650 4300
 Wire Wire Line
-	5550 2700 5450 2700
+	5850 2300 5750 2300
 Wire Wire Line
-	5550 2800 5550 2700
+	5850 2400 5850 2300
 Wire Wire Line
-	5450 2800 5550 2800
+	5750 2400 5850 2400
 Wire Wire Line
-	5550 2600 5450 2600
+	5850 2200 5750 2200
 Wire Wire Line
-	5550 2500 5550 2600
+	5850 2100 5850 2200
 Wire Wire Line
-	5450 2500 5550 2500
+	5750 2100 5850 2100
 Wire Wire Line
-	5550 2600 5650 2600
+	5850 2200 5950 2200
 Wire Wire Line
-	5550 2700 5650 2700
+	5850 2300 5950 2300
 Wire Wire Line
-	7050 2000 5450 2000
+	7350 1600 5750 1600
 Wire Wire Line
-	8850 2400 9050 2400
+	9150 2000 9350 2000
 Wire Wire Line
-	7050 3500 7850 3500
+	7350 3100 8150 3100
 Wire Wire Line
-	7850 3700 7850 3500
+	8150 3300 8150 3100
 Wire Wire Line
-	7850 3800 7850 3900
+	8150 3400 8150 3500
 Wire Wire Line
-	7850 3500 8450 3500
+	8150 3100 8750 3100
 Wire Wire Line
-	5450 2300 6100 2300
+	5750 1900 6400 1900
 Wire Wire Line
-	5450 2200 6200 2200
+	5750 1800 6500 1800
 Wire Wire Line
-	6200 2200 6300 2200
+	6500 1800 6600 1800
 Wire Wire Line
-	6100 2300 6300 2300
+	6400 1900 6600 1900
 Wire Wire Line
-	6100 2600 6200 2600
+	6400 2200 6500 2200
 Wire Wire Line
-	6200 2600 6200 2500
+	6500 2200 6500 2100
 Wire Wire Line
 	2550 1500 2600 1500
 Wire Wire Line
@@ -619,102 +619,102 @@ Wire Wire Line
 Wire Wire Line
 	1400 4100 1650 4100
 Wire Wire Line
-	7050 2000 7050 2800
+	7350 1600 7350 2400
 Wire Wire Line
-	7050 3000 7050 3500
+	7350 2600 7350 3100
 Wire Wire Line
-	9650 3000 9650 2850
+	9950 2600 9950 2450
 Wire Wire Line
-	9650 2850 10000 2850
+	9950 2450 10300 2450
 Wire Wire Line
-	10000 2850 10000 3000
+	10300 2450 10300 2600
 Wire Notes Line
 	6950 6500 6950 6400
 Wire Notes Line
 	6950 6400 11200 6400
 Wire Notes Line
-	7600 1550 8350 1550
+	7900 1150 8650 1150
 Wire Notes Line
-	8350 2900 8350 1550
+	8650 2500 8650 1150
 Wire Notes Line
-	7600 2900 8350 2900
+	7900 2500 8650 2500
 Wire Notes Line
-	7600 2900 7600 1550
+	7900 2500 7900 1150
 Wire Wire Line
-	10100 2650 10200 2650
+	10400 2250 10500 2250
 Connection ~ 2950 3800
-Connection ~ 5550 2600
-Connection ~ 5550 2700
-Connection ~ 7050 3500
-Connection ~ 7850 3500
-Connection ~ 6200 2200
-Connection ~ 6100 2300
-Connection ~ 6200 2600
+Connection ~ 5850 2200
+Connection ~ 5850 2300
+Connection ~ 7350 3100
+Connection ~ 8150 3100
+Connection ~ 6500 1800
+Connection ~ 6400 1900
+Connection ~ 6500 2200
 Connection ~ 2550 1500
 Connection ~ 3000 1200
 Connection ~ 1400 4100
-Connection ~ 9050 2400
+Connection ~ 9350 2000
 NoConn ~ 2300 2100
 NoConn ~ 2300 2300
 NoConn ~ 2300 2400
 NoConn ~ 2300 1400
-NoConn ~ 5450 3200
-NoConn ~ 5450 3100
+NoConn ~ 5750 2800
+NoConn ~ 5750 2700
 Wire Wire Line
-	9550 2050 9550 3000
+	9850 1650 9850 2600
 Wire Wire Line
-	9250 2400 9250 2350
+	9550 2000 9550 1950
 Wire Wire Line
-	9050 2400 9250 2400
+	9350 2000 9550 2000
 Wire Wire Line
-	8850 2400 8850 2350
+	9150 2000 9150 1950
 Wire Wire Line
-	8850 2150 8850 2050
-Connection ~ 8850 2050
+	9150 1750 9150 1650
+Connection ~ 9150 1650
 Wire Wire Line
-	8850 2050 9250 2050
+	9150 1650 9550 1650
 Wire Wire Line
-	9250 2150 9250 2050
-Connection ~ 9250 2050
+	9550 1750 9550 1650
+Connection ~ 9550 1650
 Wire Wire Line
-	9250 2050 9550 2050
-Text GLabel 9650 2050 2    50   BiDi ~ 0
+	9550 1650 9850 1650
+Text GLabel 9950 1650 2    50   BiDi ~ 0
 VCHRG
 Wire Wire Line
-	9650 2050 9550 2050
-Connection ~ 9550 2050
+	9950 1650 9850 1650
+Connection ~ 9850 1650
 Wire Wire Line
-	8250 2050 8700 2050
+	8550 1650 9000 1650
 Wire Wire Line
-	8450 2150 8450 2650
+	8750 1750 8750 2250
 Wire Wire Line
-	4550 3500 4850 3500
+	4850 3100 5150 3100
 $Comp
 L mainboard:USB_C_pycubed J13
 U 1 1 61CA74B7
-P 4850 2600
-F 0 "J13" H 4421 2600 50  0000 R CNN
-F 1 "USB_C_pycubed" V 4250 2600 50  0001 C CNN
-F 2 "mainboard:USB_C_Receptacle_XKB_U262-161N-4BVC11" H 4850 3350 50  0001 C CNN
-F 3 "" H 4850 3350 50  0001 C CNN
-	1    4850 2600
+P 5150 2200
+F 0 "J13" H 4721 2200 50  0000 R CNN
+F 1 "USB_C_pycubed" V 4550 2200 50  0001 C CNN
+F 2 "mainboard:USB_C_Receptacle_XKB_U262-161N-4BVC11" H 5150 2950 50  0001 C CNN
+F 3 "" H 5150 2950 50  0001 C CNN
+	1    5150 2200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7050 3500 4850 3500
-Connection ~ 4850 3500
+	7350 3100 5150 3100
+Connection ~ 5150 3100
 Wire Wire Line
-	4550 3500 4150 3500
+	4850 3100 4450 3100
 Wire Wire Line
-	4150 3500 4150 1700
+	4450 3100 4450 1300
 Wire Wire Line
-	4150 1700 4550 1700
-Connection ~ 4550 3500
+	4450 1300 4850 1300
+Connection ~ 4850 3100
 Wire Wire Line
-	4950 1700 5450 1700
+	5250 1300 5750 1300
 Wire Wire Line
-	5450 1700 5450 2000
-Connection ~ 5450 2000
+	5750 1300 5750 1600
+Connection ~ 5750 1600
 Text Notes 3350 4800 0    85   ~ 0
 Sun Sensor Side Panel Connectors
 Text Notes 3900 4950 0    50   ~ 0
@@ -722,9 +722,9 @@ Z+ x45
 Text Notes 3900 5600 0    50   ~ 0
 Z+ x44
 Text GLabel 3700 6550 0    50   Output ~ 0
-SCL_SS_XY
+SCL_2
 Text GLabel 3700 6450 0    50   BiDi ~ 0
-SDA_SS_XY
+SDA_2
 Text Notes 3900 6300 0    50   ~ 0
 X+ x45
 $Comp
@@ -768,9 +768,9 @@ Text GLabel 3400 5950 3    10   BiDi ~ 0
 Wire Wire Line
 	3400 5950 3700 5950
 Text GLabel 3700 5850 0    50   Output ~ 0
-SCL_SS_Z
+SCL
 Text GLabel 3700 5750 0    50   BiDi ~ 0
-SDA_SS_Z
+SDA
 $Comp
 L mainboard:874370343 J19
 U 1 1 6248FDF8
@@ -794,9 +794,9 @@ F 3 "" H 3900 6550 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 3700 7250 0    50   Output ~ 0
-SCL_SS_XY
+SCL_2
 Text GLabel 3700 7150 0    50   BiDi ~ 0
-SDA_SS_XY
+SDA_2
 $Comp
 L mainboard:3.3V #SUPPLY?
 U 1 1 6249FAED
@@ -826,9 +826,9 @@ F 3 "" H 3900 7250 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 4950 7250 2    50   Output ~ 0
-SCL_SS_XY
+SCL_2
 Text GLabel 4950 7350 2    50   BiDi ~ 0
-SDA_SS_XY
+SDA_2
 $Comp
 L mainboard:3.3V #SUPPLY?
 U 1 1 624A57D7
@@ -858,9 +858,9 @@ F 3 "" H 4750 7250 50  0001 L BNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 4950 6550 2    50   Output ~ 0
-SCL_SS_XY
+SCL_2
 Text GLabel 4950 6650 2    50   BiDi ~ 0
-SDA_SS_XY
+SDA_2
 $Comp
 L mainboard:3.3V #SUPPLY?
 U 1 1 624AA8C3
@@ -901,9 +901,9 @@ F 3 "" H 3900 5200 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 3700 5100 0    50   BiDi ~ 0
-SDA_SS_Z
+SDA
 Text GLabel 3700 5200 0    50   Output ~ 0
-SCL_SS_Z
+SCL
 Wire Wire Line
 	3400 5300 3700 5300
 Text GLabel 3400 5300 3    10   BiDi ~ 0
@@ -924,31 +924,191 @@ $EndComp
 $Comp
 L mainboard:M023.5MM_LOCK J?
 U 1 1 61D376FE
-P 7950 2550
+P 8250 2150
 AR Path="/61D376FE" Ref="J?"  Part="1" 
 AR Path="/5CEC60EB/61D376FE" Ref="J24"  Part="1" 
-F 0 "J24" H 7650 2550 59  0000 L BNN
-F 1 "MOLEX_Sherlock_2pos" H 7750 2800 59  0000 L BNN
-F 2 "mainboard:MOLEX_Sherlock_2pos" H 7950 2550 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/324/4/1985807-1458929.pdf" H 7950 2550 50  0001 C CNN
-F 4 "2-pin Screw Terminal - Side Entry" H 7950 2550 50  0001 C CNN "Description"
-F 5 "1985807" H 7950 2550 50  0001 C CNN "Flight"
-F 6 "Phoenix Contact" H 7950 2550 50  0001 C CNN "Manufacturer_Name"
-F 7 "1985807" H 7650 2650 50  0001 C CNN "Manufacturer_Part_Number"
-F 8 "1985807" H 7950 2550 50  0001 C CNN "Proto"
-	1    7950 2550
+F 0 "J24" H 7950 2150 59  0000 L BNN
+F 1 "MOLEX_Sherlock_2pos" H 8050 2400 59  0000 L BNN
+F 2 "mainboard:MOLEX_Sherlock_2pos" H 8250 2150 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/324/4/1985807-1458929.pdf" H 8250 2150 50  0001 C CNN
+F 4 "2-pin Screw Terminal - Side Entry" H 8250 2150 50  0001 C CNN "Description"
+F 5 "1985807" H 8250 2150 50  0001 C CNN "Flight"
+F 6 "Phoenix Contact" H 8250 2150 50  0001 C CNN "Manufacturer_Name"
+F 7 "1985807" H 7950 2250 50  0001 C CNN "Manufacturer_Part_Number"
+F 8 "1985807" H 8250 2150 50  0001 C CNN "Proto"
+	1    8250 2150
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	8450 2650 8250 2650
-Connection ~ 8450 2650
+	8750 2250 8550 2250
+Connection ~ 8750 2250
 Wire Wire Line
-	8450 2650 8450 3500
+	8750 2250 8750 3100
 Wire Wire Line
-	8250 2550 8700 2550
+	8550 2150 9000 2150
 Wire Wire Line
-	8700 2550 8700 2050
-Connection ~ 8700 2050
+	9000 2150 9000 1650
+Connection ~ 9000 1650
 Wire Wire Line
-	8700 2050 8850 2050
+	9000 1650 9150 1650
+Text GLabel 6050 5250 3    50   BiDi ~ 0
+5V
+Wire Wire Line
+	6150 5250 6150 5650
+$Comp
+L mainboard:GND #GND?
+U 1 1 6265AC07
+P 6150 5750
+AR Path="/6265AC07" Ref="#GND?"  Part="1" 
+AR Path="/5CEC5DDE/6265AC07" Ref="#GND?"  Part="1" 
+AR Path="/5CEC6281/6265AC07" Ref="#GND?"  Part="1" 
+AR Path="/5CEC60EB/6265AC07" Ref="#GND0102"  Part="1" 
+F 0 "#GND0102" H 6150 5750 50  0001 C CNN
+F 1 "GND" H 6050 5650 59  0000 L BNN
+F 2 "" H 6150 5750 50  0001 C CNN
+F 3 "" H 6150 5750 50  0001 C CNN
+	1    6150 5750
+	1    0    0    -1  
+$EndComp
+Text GLabel 6150 5600 2    10   BiDi ~ 0
+GND
+Text GLabel 6350 5250 3    50   BiDi ~ 0
+RX_2
+Text GLabel 6250 5250 3    50   BiDi ~ 0
+TX_2
+NoConn ~ 6450 5250
+Text GLabel 6550 5250 3    50   BiDi ~ 0
+RST_CORAL
+Text Notes 5850 4750 0    50   ~ 0
+Coral/Payload Connector
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 627A8988
+P 10400 5350
+AR Path="/5CEC5A72/627A8988" Ref="H?"  Part="1" 
+AR Path="/5CEC60EB/627A8988" Ref="H1"  Part="1" 
+F 0 "H1" V 10400 5600 50  0000 C CNN
+F 1 "MountingHole_Pad" V 10546 5353 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 10400 5350 50  0001 C CNN
+F 3 "" H 10400 5350 50  0001 C CNN
+F 4 "DNI" H 10400 5350 50  0001 C CNN "DNI"
+	1    10400 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L mainboard:GND #GND?
+U 1 1 627A898E
+P 10500 6000
+AR Path="/627A898E" Ref="#GND?"  Part="1" 
+AR Path="/5CEC5A72/627A898E" Ref="#GND?"  Part="1" 
+AR Path="/5CEC60EB/627A898E" Ref="#GND0105"  Part="1" 
+F 0 "#GND0105" H 10500 6000 50  0001 C CNN
+F 1 "GND" H 10400 5900 59  0000 L BNN
+F 2 "" H 10500 6000 50  0001 C CNN
+F 3 "" H 10500 6000 50  0001 C CNN
+	1    10500 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 627A8995
+P 10400 5500
+AR Path="/5CEC5A72/627A8995" Ref="H?"  Part="1" 
+AR Path="/5CEC60EB/627A8995" Ref="H2"  Part="1" 
+F 0 "H2" V 10400 5750 50  0000 C CNN
+F 1 "MountingHole_Pad" V 10546 5503 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 10400 5500 50  0001 C CNN
+F 3 "" H 10400 5500 50  0001 C CNN
+F 4 "DNI" H 10400 5500 50  0001 C CNN "DNI"
+	1    10400 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 627A899C
+P 10400 5650
+AR Path="/5CEC5A72/627A899C" Ref="H?"  Part="1" 
+AR Path="/5CEC60EB/627A899C" Ref="H3"  Part="1" 
+F 0 "H3" V 10400 5900 50  0000 C CNN
+F 1 "MountingHole_Pad" V 10546 5653 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 10400 5650 50  0001 C CNN
+F 3 "" H 10400 5650 50  0001 C CNN
+F 4 "DNI" H 10400 5650 50  0001 C CNN "DNI"
+	1    10400 5650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 627A89A3
+P 10400 5800
+AR Path="/5CEC5A72/627A89A3" Ref="H?"  Part="1" 
+AR Path="/5CEC60EB/627A89A3" Ref="H4"  Part="1" 
+F 0 "H4" V 10400 6050 50  0000 C CNN
+F 1 "MountingHole_Pad" V 10546 5803 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 10400 5800 50  0001 C CNN
+F 3 "" H 10400 5800 50  0001 C CNN
+F 4 "DNI" H 10400 5800 50  0001 C CNN "DNI"
+	1    10400 5800
+	0    -1   -1   0   
+$EndComp
+Text Notes 9900 5150 0    85   ~ 0
+Mounting Holes
+Wire Wire Line
+	10500 5350 10500 5500
+Wire Wire Line
+	10500 5500 10500 5650
+Wire Wire Line
+	10500 5650 10500 5800
+Wire Wire Line
+	10500 5800 10500 5900
+Connection ~ 10500 5500
+Connection ~ 10500 5650
+Connection ~ 10500 5800
+$Comp
+L mainboard:874370343 J12
+U 1 1 627E598A
+P 7700 5000
+F 0 "J12" H 8030 5046 50  0000 L CNN
+F 1 "874370343" H 7600 5250 50  0000 L CNN
+F 2 "mainboard:MOLEX_874370343" V 8100 4800 50  0001 L BNN
+F 3 "" H 7700 5000 50  0001 L BNN
+	1    7700 5000
+	-1   0    0    1   
+$EndComp
+Text Notes 7200 4750 0    50   ~ 0
+Battery Thermistor
+Text GLabel 7900 5100 2    50   BiDi ~ 0
+ENAB_THERM
+Text GLabel 7900 4900 2    50   BiDi ~ 0
+SENSE_THERM
+$Comp
+L mainboard:GND #GND?
+U 1 1 6283ECF7
+P 8550 5000
+AR Path="/6283ECF7" Ref="#GND?"  Part="1" 
+AR Path="/5CEC5DDE/6283ECF7" Ref="#GND?"  Part="1" 
+AR Path="/5CEC6281/6283ECF7" Ref="#GND?"  Part="1" 
+AR Path="/5CEC60EB/6283ECF7" Ref="#GND0106"  Part="1" 
+F 0 "#GND0106" H 8550 5000 50  0001 C CNN
+F 1 "GND" H 8450 4900 59  0000 L BNN
+F 2 "" H 8550 5000 50  0001 C CNN
+F 3 "" H 8550 5000 50  0001 C CNN
+	1    8550 5000
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8400 5000 1    10   BiDi ~ 0
+GND
+Wire Wire Line
+	7900 5000 8450 5000
+$Comp
+L mainboard:874370643 J4
+U 1 1 626B3684
+P 5950 5000
+F 0 "J4" V 5914 4320 50  0000 R CNN
+F 1 "874370643" V 6100 4850 50  0000 R CNN
+F 2 "mainboard:MOLEX_874370643" H 5950 5000 50  0001 C CNN
+F 3 "" H 5950 5000 50  0001 C CNN
+	1    5950 5000
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

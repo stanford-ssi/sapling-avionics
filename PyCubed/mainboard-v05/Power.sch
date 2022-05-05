@@ -624,25 +624,6 @@ F 8 "DMP2022LSS-13" H 9900 1700 50  0001 C CNN "Proto"
 	1    0    0    -1  
 $EndComp
 $Comp
-L mainboard:DFLS130L D?
-U 1 1 073F14D3
-P 1250 1850
-AR Path="/073F14D3" Ref="D?"  Part="1" 
-AR Path="/5CEC5DDE/073F14D3" Ref="D2"  Part="1" 
-F 0 "D2" H 1250 1950 59  0000 L BNN
-F 1 "DFLS130L" H 1100 1650 59  0000 L BNN
-F 2 "mainboard:PWRDI-123" H 1250 1850 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds30492.pdf" H 1250 1850 50  0001 C CNN
-F 4 "Schottky Diode - 30V 1A" H 1250 1850 50  0001 C CNN "Description"
-F 5 "DFLS130L-7" H 1250 1850 50  0001 C CNN "Flight"
-F 6 "Diodes Incorporated" H 1250 1850 50  0001 C CNN "Manufacturer_Name"
-F 7 "DFLS130L-7" H 1250 2050 50  0001 C CNN "Manufacturer_Part_Number"
-F 8 "DFLS130L" H 1250 1850 50  0001 C CNN "Proto"
-F 9 "DNI" H 1300 1550 50  0000 C CNB "DNI"
-	1    1250 1850
-	1    0    0    -1  
-$EndComp
-$Comp
 L mainboard:ADM1176-1ARMZ-R7 U4
 U 1 1 5DEFEA80
 P 5000 3200
@@ -1300,20 +1281,6 @@ F 3 "" H 1950 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L mainboard:3.3V #SUPPLY?
-U 1 1 6090F0F5
-P 1050 4550
-AR Path="/6090F0F5" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5CEC6281/6090F0F5" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5CEC5DDE/6090F0F5" Ref="#SUPPLY0110"  Part="1" 
-F 0 "#SUPPLY0110" H 1050 4550 50  0001 C CNN
-F 1 "3.3V" V 1050 4719 59  0000 L CNN
-F 2 "" H 1050 4550 50  0001 C CNN
-F 3 "" H 1050 4550 50  0001 C CNN
-	1    1050 4550
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Jumper:Jumper_3_Bridged12 JP6
 U 1 1 60AB2816
 P 1200 3900
@@ -1324,19 +1291,6 @@ F 3 "" H 1200 3900 50  0001 C CNN
 F 4 "DNI" H 1200 4067 50  0001 C CNN "DNI"
 F 5 "Vertical Header - 0.1in (2.54mm)" H 1200 4067 50  0001 C CNN "Description"
 	1    1200 3900
-	0    1    -1   0   
-$EndComp
-$Comp
-L Jumper:Jumper_3_Bridged12 JP7
-U 1 1 60B8D8AA
-P 1200 4800
-F 0 "JP7" V 1200 4867 50  0000 L CNN
-F 1 "Jumper_3_Bridged12" V 1245 4867 50  0001 L CNN
-F 2 "mainboard:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 1200 4800 50  0001 C CNN
-F 3 "" H 1200 4800 50  0001 C CNN
-F 4 "DNI" H 1200 4967 50  0001 C CNN "DNI"
-F 5 "Vertical Header - 0.1in (2.54mm)" H 1200 4967 50  0001 C CNN "Description"
-	1    1200 4800
 	0    1    -1   0   
 $EndComp
 $Comp
@@ -1391,10 +1345,8 @@ Text Notes 6450 2200 0    35   ~ 0
 L1_PROG\nmonitors charge current using:\nIchrg=988*Vprog/Rprog\n3.01K = 400mA max charge current\n
 Text GLabel 6000 1750 2    50   Output ~ 0
 ~CHRG
-Text GLabel 1100 1850 0    70   BiDi ~ 0
+Text GLabel 1400 1850 0    70   BiDi ~ 0
 VSOLAR
-Text Label 1450 1850 0    50   ~ 0
-VCHRG_IN
 Text Notes 7050 3150 0    85   ~ 0
 USB (Boost) Charging for 2-cell Li-Ion
 Text GLabel 6450 4250 0    10   BiDi ~ 0
@@ -1415,8 +1367,6 @@ Text GLabel 8600 3450 0    50   BiDi ~ 0
 USB_D+
 Text GLabel 8050 5050 0    50   BiDi ~ 0
 VBUS_IN
-Text GLabel 7850 5450 0    50   BiDi ~ 0
-THM
 Text Notes 5450 3950 0    50   ~ 0
 Addr: 0x94
 Text Notes 8850 7000 0    200  ~ 40
@@ -1499,8 +1449,6 @@ Text Notes 2250 4650 0    35   ~ 0
 Set RF Voltage:\nVOUT=1.21*(1+R55/R59)+(3E-6*R55)\nVOUT=5V (R55=10K, R59=3.3K)\n
 Text GLabel 1050 3900 0    50   BiDi ~ 0
 VCC_RF1
-Text GLabel 1050 4800 0    50   BiDi ~ 0
-VCC_RF2
 Wire Wire Line
 	1850 2350 1850 2450
 Wire Wire Line
@@ -1726,10 +1674,6 @@ Wire Wire Line
 Wire Wire Line
 	1450 6950 1850 6950
 Wire Wire Line
-	1150 1850 1100 1850
-Wire Wire Line
-	1450 1850 1850 1850
-Wire Wire Line
 	5150 2850 5450 2850
 Wire Wire Line
 	5250 2050 5150 2050
@@ -1831,8 +1775,6 @@ Wire Wire Line
 	8300 4750 8150 4750
 Wire Wire Line
 	8450 5750 9000 5750
-Wire Wire Line
-	8050 5450 7850 5450
 Wire Wire Line
 	3150 2050 3050 2050
 Wire Wire Line
@@ -1994,8 +1936,6 @@ Wire Wire Line
 Wire Wire Line
 	1750 5000 1950 5000
 Wire Wire Line
-	1450 5050 1450 4150
-Wire Wire Line
 	1450 4150 1750 4150
 Wire Wire Line
 	1750 4150 1950 4150
@@ -2011,10 +1951,6 @@ Wire Notes Line
 	3300 5000 3300 4400
 Wire Notes Line
 	3300 4400 1900 4400
-Wire Wire Line
-	1200 5050 1450 5050
-Wire Wire Line
-	1050 4550 1200 4550
 Wire Wire Line
 	1200 4150 1450 4150
 Wire Wire Line
@@ -2140,10 +2076,7 @@ Wire Wire Line
 Wire Wire Line
 	2300 5450 2300 5350
 Wire Wire Line
-	1450 5250 1450 5050
-Wire Wire Line
 	1450 5250 2300 5250
-Connection ~ 1450 5050
 Text GLabel 4000 5250 2    50   BiDi ~ 0
 VBATT
 $Comp
@@ -2220,4 +2153,10 @@ Text Notes 5100 5550 2    31   ~ 0
 Value is convenient,\nnot necessary. \n10K-80K would\nalso work for R29
 Text Notes 6300 1000 0    50   ~ 0
 Note: ask about R18
+Wire Wire Line
+	1450 4150 1450 5250
+NoConn ~ 5100 3850
+NoConn ~ 5100 3950
+Wire Wire Line
+	1400 1850 1850 1850
 $EndSCHEMATC
