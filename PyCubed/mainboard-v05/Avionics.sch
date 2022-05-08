@@ -515,45 +515,6 @@ F 4 "10K 0603" H 5632 5446 50  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x09 J8
-U 1 1 5D3643AA
-P 9200 2100
-F 0 "J8" H 9200 2600 50  0000 C CNN
-F 1 "Conn_01x09" H 9118 2626 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 9200 2100 50  0001 C CNN
-F 3 "" H 9200 2100 50  0001 C CNN
-F 4 "DNI" H 9350 2100 50  0000 C CNB "DNI"
-F 5 "Vertical Header - 0.1in (2.54mm)" H 9200 2100 50  0001 C CNN "Description"
-	1    9200 2100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L mainboard:3.3V #SUPPLY?
-U 1 1 5D370A56
-P 9950 1700
-AR Path="/5D370A56" Ref="#SUPPLY?"  Part="1" 
-AR Path="/5CEC5A72/5D370A56" Ref="#SUPPLY0111"  Part="1" 
-F 0 "#SUPPLY0111" H 9950 1700 50  0001 C CNN
-F 1 "3.3V" H 9850 1850 59  0000 L BNN
-F 2 "" H 9950 1700 50  0001 C CNN
-F 3 "" H 9950 1700 50  0001 C CNN
-	1    9950 1700
-	-1   0    0    -1  
-$EndComp
-$Comp
-L mainboard:GND #GND?
-U 1 1 5D3722F9
-P 9950 1900
-AR Path="/5D3722F9" Ref="#GND?"  Part="1" 
-AR Path="/5CEC5A72/5D3722F9" Ref="#GND0101"  Part="1" 
-F 0 "#GND0101" H 9950 1900 50  0001 C CNN
-F 1 "GND" H 9850 1800 59  0000 L BNN
-F 2 "" H 9950 1900 50  0001 C CNN
-F 3 "" H 9950 1900 50  0001 C CNN
-	1    9950 1900
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_US R42
 U 1 1 5D3DC34B
 P 2050 2150
@@ -744,19 +705,6 @@ F 3 "" H 8450 5400 50  0001 C CNN
 	1    8450 5400
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x03 J9
-U 1 1 5FC0A60F
-P 9200 2950
-F 0 "J9" H 9200 3150 50  0000 C CNN
-F 1 "Conn_01x03" H 9118 2626 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9200 2950 50  0001 C CNN
-F 3 "" H 9200 2950 50  0001 C CNN
-F 4 "DNI" H 9350 3000 50  0000 C CNB "DNI"
-F 5 "Vertical Header - 0.1in (2.54mm)" H 9200 2950 50  0001 C CNN "Description"
-	1    9200 2950
-	-1   0    0    -1  
-$EndComp
 Text GLabel 2550 2100 2    10   BiDi ~ 0
 GND
 Text GLabel 5000 4450 2    50   BiDi ~ 0
@@ -768,7 +716,7 @@ ENAB_GPS
 Text GLabel 3500 5650 0    50   BiDi ~ 0
 ENAB_BURN2
 Text GLabel 5000 6350 2    50   BiDi ~ 0
-ENAB_BURN1
+PB31
 Text GLabel 5000 5750 2    50   BiDi ~ 0
 BURN_RELAY_A
 Text GLabel 3050 4850 0    50   BiDi ~ 0
@@ -835,18 +783,10 @@ Text GLabel 3550 6350 0    50   BiDi ~ 0
 PA22
 Text GLabel 3550 6050 0    50   BiDi ~ 0
 ENAB_RF
-Text GLabel 9500 1900 2    59   BiDi ~ 0
-MOSI
-Text GLabel 9500 2000 2    59   BiDi ~ 0
-SCK
-Text GLabel 9500 2100 2    59   BiDi ~ 0
-MISO
 Text GLabel 5000 5050 2    45   Input ~ 0
 ~CHRG
 Text GLabel 4050 2100 2    50   Input ~ 0
 WDT_WDI
-Text GLabel 9500 2300 2    50   BiDi ~ 0
-PB22
 Text GLabel 3550 4350 0    50   BiDi ~ 0
 SENSE_THERM
 Text GLabel 5000 5850 2    50   BiDi ~ 0
@@ -861,8 +801,6 @@ Text GLabel 5000 6250 2    50   BiDi ~ 0
 RF1_CS
 Text GLabel 5000 4250 2    50   BiDi ~ 0
 RF1_RST
-Text Notes 9150 1400 0    85   ~ 0
-Breakout Pins
 Text Notes 8650 6950 0    200  ~ 40
 Avionics
 Text Label 3050 4450 0    40   ~ 0
@@ -901,10 +839,6 @@ Text GLabel 8300 5500 0    50   Input ~ 0
 SCL_IMU
 Text GLabel 3550 5950 0    50   Output ~ 0
 VBUS_RESET
-Text GLabel 9500 2950 2    50   BiDi ~ 0
-PB16
-Text GLabel 9500 2850 2    50   BiDi ~ 0
-PB17
 Text GLabel 2400 5600 0    50   BiDi ~ 0
 SDA_2
 Text GLabel 5000 4750 2    50   BiDi ~ 0
@@ -1088,12 +1022,6 @@ Wire Wire Line
 Wire Wire Line
 	3650 6050 3550 6050
 Wire Wire Line
-	9500 2000 9400 2000
-Wire Wire Line
-	9500 1900 9400 1900
-Wire Wire Line
-	9500 2100 9400 2100
-Wire Wire Line
 	5000 5050 4850 5050
 Wire Wire Line
 	5000 4750 4850 4750
@@ -1101,16 +1029,6 @@ Wire Wire Line
 	4850 5450 5700 5450
 Wire Wire Line
 	4850 5550 6200 5550
-Wire Wire Line
-	9400 2400 9500 2400
-Wire Wire Line
-	9400 2500 9500 2500
-Wire Wire Line
-	9400 2300 9500 2300
-Wire Wire Line
-	9400 1800 9950 1800
-Wire Wire Line
-	9950 1700 9400 1700
 Wire Wire Line
 	3650 4350 3550 4350
 Wire Wire Line
@@ -1219,10 +1137,6 @@ Wire Wire Line
 	8450 5000 8550 5000
 Wire Wire Line
 	3550 5950 3650 5950
-Wire Wire Line
-	9400 2950 9500 2950
-Wire Wire Line
-	9400 2850 9500 2850
 Wire Wire Line
 	2050 1500 2050 2000
 Wire Wire Line
@@ -1404,12 +1318,6 @@ F 4 "10K 0603" H 2782 5596 50  0001 C CNN "Description"
 $EndComp
 Text GLabel 3550 4550 0    50   BiDi ~ 0
 TX_2
-NoConn ~ 9400 3050
-NoConn ~ 9500 2500
-Wire Wire Line
-	9400 2200 9500 2200
-Text GLabel 9500 2400 2    50   BiDi ~ 0
-PB14
 Wire Wire Line
 	4550 1900 4550 2300
 Wire Wire Line
@@ -1444,5 +1352,4 @@ Text GLabel 4900 7100 2    10   BiDi ~ 0
 GND
 Text GLabel 6000 4050 2    10   BiDi ~ 0
 GND
-NoConn ~ 9500 2200
 $EndSCHEMATC
