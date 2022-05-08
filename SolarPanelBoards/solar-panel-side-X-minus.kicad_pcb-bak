@@ -1642,7 +1642,7 @@
   (via (at 119.634 64.389) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 7))
   (via (at 144.145 56.515) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 7))
   (via (at 147.955 56.515) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 7))
-  (via (at 164.4396 58.3692) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 7))
+  (via (at 164.592 58.8645) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 7))
   (via (at 147.955 52.578) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 7))
   (via (at 144.145 52.578) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 7))
   (via (at 151.13 56.134) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 7))
