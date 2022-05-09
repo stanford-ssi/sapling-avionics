@@ -83044,114 +83044,114 @@ mainboard
 0603
 <p><b>Generic 1608 (0603) package</b></p>
 <p>0.2mm courtyard excess rounded to nearest 0.05mm.</p>
-
+0
 0
 2
 2
 mainboard
 0603-CAP
 
-
+0
 0
 2
 2
 mainboard
 0603-CAP@1
 
-
+0
 0
 2
 2
 mainboard
 0603-RES
 
-
+0
 0
 2
 2
 mainboard
 0805
 <p><b>Generic 2012 (0805) package</b></p>
-<p>0.2mm courtyard excess rounded to nearest 0.05mm.</p>
-
+0
+0
 0
 2
 2
 mainboard
 1206
-
-
+0
+0
 0
 2
 2
 mainboard
 1210
-<p><b>Generic 3225 (1210) package</b></p>
-<p>0.2mm courtyard excess rounded to nearest 0.05mm.</p>
-
+0
+0
+0
 0
 2
 2
 mainboard
 1812
-
-
+0
+0
 0
 2
 2
 mainboard
-10118194-0001LF
-
-
+10118194
+0
+0
 0
 13
 13
 mainboard
-ADM1176-1ARMZ-R7
-
-
+0
+0
+0
 0
 10
 10
 mainboard
-BMX160
-BMX160-3
-Integrated Circuit
+0
+0
+0
 0
 14
 14
 mainboard
-BSS138DWQ-7
-SOT36325
-MOSFET (N-Channel)
+0
+0
+0
 0
 6
 6
 mainboard
-BTN_KMR2_4.6X2.8
-
-
+0
+0
+0
 0
 4
 4
 mainboard
-BU-SMA-V
-FEMALE <b>SMA CONNECTOR</b><p>
-Radiall<p>
+0
+0
+0
 distributor RS 112-3794
 
 0
 5
 5
-mainboard
-CRYSTAL-SMD-3.2X1.5MM
+0
+0
 <h3>3.2 x 1.5mm Crystal Package</h3>
 <p>e.g: <a href="http://www.sii.co.jp/en/quartz/files/2013/03/file_PRODUCT_MASTER_50812_GRAPHIC03.pdf">SX-32S</a></p>
 
 0
 2
 2
-mainboard
+0
 DCJ0303
 <b>DC POWER JACK</b> Pad shape changed to LONG 2007.07.26<p>
 Source: DCJ0303.pdf
@@ -83191,156 +83191,156 @@ mainboard
 LGA24-8X4
 <h3>24-pin LGA 8x4 pins</h3>
 <p>Footprint: 3.5 x 3mm</p>
-<p>Used by:
-<ul><li>LSM9DS1</li></ul></p>
-<p><em>Unproven</em></p>
+0
+0
+0
 
 0
 24
 24
-mainboard
-L_2141
-Inductor SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator
+0
+0
+0
 inductor
 0
 2
 2
-mainboard
-L_2510
-1uH ±20% 3.18A 41mΩ 252012,SMD,2.5x2.0x1.2mm Inductors (SMD) RoHS
+0
+0
+1
 inductor
 0
 2
 2
-mainboard
-MOLEX-1X3_LOCK
-
+0
+0
+0
 
 0
 3
 3
-mainboard
-MOLEX_35362-0650
-
+0
+0
+0
 
 0
 6
 6
-mainboard
-MOLEX_503182-1852
-
+0
+0
+0
 
 0
 15
 15
-mainboard
-MOLEX_874370343
-
+0
+0
+0
 
 0
 6
 6
-mainboard
-MOLEX_874370443
-
+0
+0
+0
 
 0
 8
 8
-mainboard
-MOLEX_874370643
-
+0
+0
+0
 
 0
 12
 12
-mainboard
-MOLEX_Sherlock_2pos
-
+0
+0
+0
 
 0
 2
 2
-mainboard
-MOLEX_Sherlock_3pos
-
+0
+0
+0
 
 0
 3
 3
-mainboard
-Molex_PicoLock_3pos_5040500391
-
+0
+0
+0
 
 0
 5
 5
-mainboard
-NDS8434
-<b>Small Outline Package</b> Fits JEDEC packages (narrow SOIC-8)
+0
+0
+0
 
 0
 8
 8
-mainboard
-PAD-JUMPER-3-2OF3_NC_BY_TRACE_YES_SILK_FULL_BOX
-
+0
+0
+0
 
 0
 3
 3
-mainboard
-PTC-1206
-
+0
+0
+0
 
 0
 2
 2
-mainboard
-PWP14_2P31X2P46-L
-
+0
+0
+0
 
 0
 15
 15
-mainboard
-PWRDI-123
-
+0
+0
+0
 
 0
 2
 2
-mainboard
-PinHeader_CUSTOM3
-Through hole straight pin header, 1x04, 2.54mm pitch, single row
+0
+0
+0
 Through hole pin header THT 1x04 2.54mm single row
 0
 2
 2
-mainboard
-QFN-16-PAD
-
+0
+0
+0
 
 0
 17
 17
-mainboard
-QFN32-5X5MM
-<h3>32-pin QFN 5.0 x 5.0 mm, 0.5mm pitch</h3>
+0
+0
+0
 <p>Used by ESP8266</p>
 <p><a href="http://espressif.com/sites/default/files/documentation/0a-esp8266_datasheet_en_v4.4.pdf">Datasheet</a></p>
 
 0
 33
 33
-mainboard
+0
 QFN50P400X400X100-25N-D
 QFN24-1
 Integrated Circuit
 0
 25
 25
-mainboard
+0
 QFN50P456X400X100-24
 24-QFN, 0.5 mm pitch, 4 X 4.565 X 1 mm body
 <p>24-pin QFN package with 0.5 mm pitch with body size 4 X 4.565 X 1 mm</p>
@@ -83436,108 +83436,104 @@ mainboard
 SON127P600X500X90-9N
 <b>DFN Small Flag Package</b><br>
 
-
+0
 0
 9
 9
 mainboard
 SOT-23
 
-
+0
 0
 3
 3
 mainboard
 SOT23
 <b>SOT-23</b>
-
+0
 0
 3
 3
 mainboard
 SOT23-3
 
-
+0
 0
 3
 3
 mainboard
 SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm
 SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip
-solder jumper open
+0
 0
 3
 3
 mainboard
 TO-263_D2PAK
 
-
+0
 0
 3
 3
 mainboard
 TPS7A4501DCQT
 DCQ (R-PDSO-G6)
-Integrated Circuit
+0
 0
 6
 6
 mainboard
 TQFP-48
 <h3>48-pin TQFP (7x7mm, 0.5mm pitch)</h3>
-<p>Used on:
-<ul><li>ATSAMD21G</il></ul>
-</p>
+0
+0
+0
 
 0
 48
 48
-mainboard
-USB_C_Receptacle_XKB_U262-161N-4BVC11
-USB TYPE C, RA RCPT PCB, SMT, https://www.amphenolcanada.com/StockAvailabilityPrice.aspx?From=&PartNum=12401610E4%7e2A
+0
+0
+0
 USB C Type-C Receptacle SMD
 0
 16
 13
-mainboard
-XTB28_MEZ
-
+0
+0
+0
 
 0
 23
 23
-mainboard
-XTB40_payload
-
+0
+0
+0
 
 0
 23
 23
-mainboard
-XYZ_cubesat-bot
-
-
 0
 0
 0
-mainboard
-board_info_block
-
 
 0
 0
 0
-mainboard
-board_info_block_bot
-
+0
+0
+0
 
 0
 0
 0
-mainboard
-mainboard_version
+0
+0
+0
 
-
+0
+0
+0
 0
 0
 0
