@@ -131,32 +131,6 @@ F 3 "" H 4100 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L mainboard:GND #GND?
-U 1 1 35D5721E
-P 1950 4450
-AR Path="/35D5721E" Ref="#GND?"  Part="1" 
-AR Path="/5CEC6476/35D5721E" Ref="#GND048"  Part="1" 
-F 0 "#GND048" H 1950 4450 50  0001 C CNN
-F 1 "GND" H 1850 4350 59  0000 L BNN
-F 2 "" H 1950 4450 50  0001 C CNN
-F 3 "" H 1950 4450 50  0001 C CNN
-	1    1950 4450
-	1    0    0    -1  
-$EndComp
-$Comp
-L mainboard:GND #GND?
-U 1 1 01958B23
-P 8900 1500
-AR Path="/01958B23" Ref="#GND?"  Part="1" 
-AR Path="/5CEC6476/01958B23" Ref="#GND061"  Part="1" 
-F 0 "#GND061" H 8900 1500 50  0001 C CNN
-F 1 "GND" H 8800 1400 59  0000 L BNN
-F 2 "" H 8900 1500 50  0001 C CNN
-F 3 "" H 8900 1500 50  0001 C CNN
-	1    8900 1500
-	1    0    0    -1  
-$EndComp
-$Comp
 L mainboard:RESISTOR0603 R?
 U 1 1 352D39F6
 P 2000 1900
@@ -224,16 +198,12 @@ F 8 "MMBT2222ALT1G" H 2300 1700 50  0001 C CNN "Proto"
 $EndComp
 Text GLabel 6300 1700 0    10   BiDi ~ 0
 GND
-Text GLabel 8600 1400 0    10   BiDi ~ 0
-GND
-Text GLabel 1950 4350 0    10   BiDi ~ 0
-GND
 Text GLabel 2300 2200 0    10   BiDi ~ 0
 GND
 Text Label 8400 1400 2    50   ~ 0
 VBURN2
 Text GLabel 5900 1300 0    50   BiDi ~ 0
-ENAB_BURN2
+ENAB_BURN
 Text Label 4900 1200 2    50   ~ 0
 VBURN_A_IN
 Text GLabel 4200 1300 2    50   BiDi ~ 0
@@ -242,16 +212,10 @@ Text GLabel 2000 1200 0    50   BiDi ~ 0
 VBATT
 Text GLabel 1800 1700 0    50   BiDi ~ 0
 BURN_RELAY_A
-Text GLabel 8500 1300 2    50   BiDi ~ 0
-VSOLAR
-Text GLabel 1950 4150 2    50   BiDi ~ 0
-VSOLAR
 Text Notes 2850 2000 0    85   ~ 0
 Power Relay A
 Text Notes 4500 800  0    85   ~ 0
 Burn Wire Control (Antenna Depolyment)
-Text Notes 1900 3650 0    85   ~ 0
-Solar Panel Connectors
 Text Notes 8600 6950 0    200  ~ 40
 Burn Wires
 Text Notes 7000 6500 0    65   ~ 0
@@ -260,12 +224,6 @@ Wire Wire Line
 	6300 1700 6000 1700
 Wire Wire Line
 	6000 1700 6000 1800
-Wire Wire Line
-	8600 1400 8900 1400
-Wire Wire Line
-	1950 4350 1950 4250
-Wire Wire Line
-	1950 4250 1850 4250
 Wire Wire Line
 	2300 2200 2300 2100
 Wire Wire Line
@@ -286,10 +244,6 @@ Wire Wire Line
 	2300 1200 2000 1200
 Wire Wire Line
 	1800 1700 2000 1700
-Wire Wire Line
-	8500 1300 8500 1400
-Wire Wire Line
-	1850 4150 1950 4150
 Wire Wire Line
 	2300 1500 2500 1500
 Wire Wire Line
@@ -326,200 +280,8 @@ Connection ~ 6700 1700
 Connection ~ 7000 1200
 Connection ~ 7000 1400
 Connection ~ 6700 1200
-$Comp
-L mainboard:MOLEX_Sherlock_2pos JP8
-U 1 1 61C24988
-P 1850 4250
-F 0 "JP8" H 2100 3950 60  0000 L CNN
-F 1 "MOLEX_Sherlock_2pos" H 2250 3950 60  0001 C CNN
-F 2 "mainboard:MOLEX_Sherlock_2pos" V 2600 4150 60  0001 C CNN
-F 3 "" H 1850 4250 60  0000 C CNN
-	1    1850 4250
-	-1   0    0    1   
-$EndComp
-$Comp
-L mainboard:GND #GND?
-U 1 1 61C2C4F4
-P 3000 4450
-AR Path="/61C2C4F4" Ref="#GND?"  Part="1" 
-AR Path="/5CEC6476/61C2C4F4" Ref="#GND0120"  Part="1" 
-F 0 "#GND0120" H 3000 4450 50  0001 C CNN
-F 1 "GND" H 2900 4350 59  0000 L BNN
-F 2 "" H 3000 4450 50  0001 C CNN
-F 3 "" H 3000 4450 50  0001 C CNN
-	1    3000 4450
-	1    0    0    -1  
-$EndComp
-Text GLabel 3000 4350 0    10   BiDi ~ 0
-GND
-Text GLabel 3000 4150 2    50   BiDi ~ 0
-VSOLAR
-Wire Wire Line
-	3000 4350 3000 4250
-Wire Wire Line
-	3000 4250 2900 4250
-Wire Wire Line
-	2900 4150 3000 4150
-$Comp
-L mainboard:MOLEX_Sherlock_2pos JP9
-U 1 1 61C2C4FF
-P 2900 4250
-F 0 "JP9" H 3150 3950 60  0000 L CNN
-F 1 "MOLEX_Sherlock_2pos" H 3300 3950 60  0001 C CNN
-F 2 "mainboard:MOLEX_Sherlock_2pos" V 3650 4150 60  0001 C CNN
-F 3 "" H 2900 4250 60  0000 C CNN
-	1    2900 4250
-	-1   0    0    1   
-$EndComp
-$Comp
-L mainboard:GND #GND?
-U 1 1 61C3228A
-P 4050 4450
-AR Path="/61C3228A" Ref="#GND?"  Part="1" 
-AR Path="/5CEC6476/61C3228A" Ref="#GND0121"  Part="1" 
-F 0 "#GND0121" H 4050 4450 50  0001 C CNN
-F 1 "GND" H 3950 4350 59  0000 L BNN
-F 2 "" H 4050 4450 50  0001 C CNN
-F 3 "" H 4050 4450 50  0001 C CNN
-	1    4050 4450
-	1    0    0    -1  
-$EndComp
-Text GLabel 4050 4350 0    10   BiDi ~ 0
-GND
-Text GLabel 4050 4150 2    50   BiDi ~ 0
-VSOLAR
-Wire Wire Line
-	4050 4350 4050 4250
-Wire Wire Line
-	4050 4250 3950 4250
-Wire Wire Line
-	3950 4150 4050 4150
-$Comp
-L mainboard:MOLEX_Sherlock_2pos JP10
-U 1 1 61C32295
-P 3950 4250
-F 0 "JP10" H 4200 3950 60  0000 L CNN
-F 1 "MOLEX_Sherlock_2pos" H 4350 3950 60  0001 C CNN
-F 2 "mainboard:MOLEX_Sherlock_2pos" V 4700 4150 60  0001 C CNN
-F 3 "" H 3950 4250 60  0000 C CNN
-	1    3950 4250
-	-1   0    0    1   
-$EndComp
-$Comp
-L mainboard:GND #GND?
-U 1 1 61C3E962
-P 1950 5050
-AR Path="/61C3E962" Ref="#GND?"  Part="1" 
-AR Path="/5CEC6476/61C3E962" Ref="#GND0122"  Part="1" 
-F 0 "#GND0122" H 1950 5050 50  0001 C CNN
-F 1 "GND" H 1850 4950 59  0000 L BNN
-F 2 "" H 1950 5050 50  0001 C CNN
-F 3 "" H 1950 5050 50  0001 C CNN
-	1    1950 5050
-	1    0    0    -1  
-$EndComp
-Text GLabel 1950 4950 0    10   BiDi ~ 0
-GND
-Text GLabel 1950 4750 2    50   BiDi ~ 0
-VSOLAR
-Wire Wire Line
-	1950 4950 1950 4850
-Wire Wire Line
-	1950 4850 1850 4850
-Wire Wire Line
-	1850 4750 1950 4750
-$Comp
-L mainboard:MOLEX_Sherlock_2pos JP13
-U 1 1 61C3E96D
-P 1850 4850
-F 0 "JP13" H 2100 4550 60  0000 L CNN
-F 1 "MOLEX_Sherlock_2pos" H 2250 4550 60  0001 C CNN
-F 2 "mainboard:MOLEX_Sherlock_2pos" V 2600 4750 60  0001 C CNN
-F 3 "" H 1850 4850 60  0000 C CNN
-	1    1850 4850
-	-1   0    0    1   
-$EndComp
-$Comp
-L mainboard:GND #GND?
-U 1 1 61C3E973
-P 3000 5050
-AR Path="/61C3E973" Ref="#GND?"  Part="1" 
-AR Path="/5CEC6476/61C3E973" Ref="#GND0123"  Part="1" 
-F 0 "#GND0123" H 3000 5050 50  0001 C CNN
-F 1 "GND" H 2900 4950 59  0000 L BNN
-F 2 "" H 3000 5050 50  0001 C CNN
-F 3 "" H 3000 5050 50  0001 C CNN
-	1    3000 5050
-	1    0    0    -1  
-$EndComp
-Text GLabel 3000 4950 0    10   BiDi ~ 0
-GND
-Text GLabel 3000 4750 2    50   BiDi ~ 0
-VSOLAR
-Wire Wire Line
-	3000 4950 3000 4850
-Wire Wire Line
-	3000 4850 2900 4850
-Wire Wire Line
-	2900 4750 3000 4750
-$Comp
-L mainboard:MOLEX_Sherlock_2pos JP14
-U 1 1 61C3E97E
-P 2900 4850
-F 0 "JP14" H 3150 4550 60  0000 L CNN
-F 1 "MOLEX_Sherlock_2pos" H 3300 4550 60  0001 C CNN
-F 2 "mainboard:MOLEX_Sherlock_2pos" V 3650 4750 60  0001 C CNN
-F 3 "" H 2900 4850 60  0000 C CNN
-	1    2900 4850
-	-1   0    0    1   
-$EndComp
-$Comp
-L mainboard:GND #GND?
-U 1 1 61C3E984
-P 4050 5050
-AR Path="/61C3E984" Ref="#GND?"  Part="1" 
-AR Path="/5CEC6476/61C3E984" Ref="#GND0124"  Part="1" 
-F 0 "#GND0124" H 4050 5050 50  0001 C CNN
-F 1 "GND" H 3950 4950 59  0000 L BNN
-F 2 "" H 4050 5050 50  0001 C CNN
-F 3 "" H 4050 5050 50  0001 C CNN
-	1    4050 5050
-	1    0    0    -1  
-$EndComp
-Text GLabel 4050 4950 0    10   BiDi ~ 0
-GND
-Text GLabel 4050 4750 2    50   BiDi ~ 0
-VSOLAR
-Wire Wire Line
-	4050 4950 4050 4850
-Wire Wire Line
-	4050 4850 3950 4850
-Wire Wire Line
-	3950 4750 4050 4750
-$Comp
-L mainboard:MOLEX_Sherlock_2pos JP15
-U 1 1 61C3E98F
-P 3950 4850
-F 0 "JP15" H 4200 4550 60  0000 L CNN
-F 1 "MOLEX_Sherlock_2pos" H 4350 4550 60  0001 C CNN
-F 2 "mainboard:MOLEX_Sherlock_2pos" V 4700 4750 60  0001 C CNN
-F 3 "" H 3950 4850 60  0000 C CNN
-	1    3950 4850
-	-1   0    0    1   
-$EndComp
-$Comp
-L mainboard:874370343 JP?
-U 1 1 61D160F6
-P 8500 1600
-AR Path="/5CEC60EB/61D160F6" Ref="JP?"  Part="1" 
-AR Path="/5CEC6476/61D160F6" Ref="JP12"  Part="1" 
-F 0 "JP12" V 8850 1500 50  0000 L CNN
-F 1 "874370343" H 8400 1350 50  0000 L CNN
-F 2 "mainboard:MOLEX_874370343" V 8900 1400 50  0001 L BNN
-F 3 "" H 8500 1600 50  0001 L BNN
-	1    8500 1600
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4100 1200 6700 1200
+Text GLabel 8400 1400 2    50   Input ~ 0
+BURN
 $EndSCHEMATC

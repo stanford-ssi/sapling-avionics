@@ -714,7 +714,7 @@ RX
 Text GLabel 5000 4350 2    50   BiDi ~ 0
 ENAB_GPS
 Text GLabel 3500 5650 0    50   BiDi ~ 0
-ENAB_BURN2
+ENAB_BURN
 Text GLabel 5000 6350 2    50   BiDi ~ 0
 PB31
 Text GLabel 5000 5750 2    50   BiDi ~ 0
