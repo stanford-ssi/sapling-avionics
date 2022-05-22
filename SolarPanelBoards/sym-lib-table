@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name "solar-panel-side-X-minus-rescue")(type "Legacy")(uri "${KIPRJMOD}/solar-panel-side-X-minus-rescue.lib")(options "")(descr ""))
+  (lib (name "solar-panel-side-X-minus-rescue")(type "Legacy")(uri "${KIPRJMOD}/solar-panel-side-X-minus-rescue.lib")(options "")(descr "")(disabled))
 )
