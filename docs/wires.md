@@ -1,14 +1,14 @@
-3.3v orange
-5v red
-pack+ red
+3.3v orange\
+5v red\
+pack+ red\
 Ground black
 
-TX - yellow
+TX - yellow\
 RX - green 
 
-SDA - yellow
+SDA - yellow\
 SCL - green
 
-Select/enable - purple
+Select/enable - purple\
 Sense - blue
 
