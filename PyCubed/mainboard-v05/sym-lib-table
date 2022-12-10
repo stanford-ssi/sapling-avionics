@@ -1,4 +1,5 @@
 (sym_lib_table
-  (lib (name mainboard)(type Legacy)(uri ${KIPRJMOD}/mainboard.lib)(options "")(descr ""))
-  (lib (name mainboard-rescue)(type Legacy)(uri ${KIPRJMOD}/mainboard-rescue.lib)(options "")(descr ""))
+  (lib (name "mainboard")(type "Legacy")(uri "${KIPRJMOD}/mainboard.lib")(options "")(descr ""))
+  (lib (name "mainboard-rescue")(type "Legacy")(uri "${KIPRJMOD}/mainboard-rescue.lib")(options "")(descr ""))
+  (lib (name "PycubedSymbols")(type "KiCad")(uri "/Users/spencerwallace/SSI/sputnik2U-avionics/SolarPanelBoards/PycubedSymbols.kicad_sym")(options "")(descr ""))
 )

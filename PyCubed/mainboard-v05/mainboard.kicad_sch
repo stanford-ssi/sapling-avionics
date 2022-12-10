@@ -1093,6 +1093,9 @@
     (path "/00000000-0000-0000-0000-00005cec6281/00000000-0000-0000-0000-00005d44fe4a"
       (reference "U23") (unit 1) (value "RFM98PW") (footprint "mainboard:RFM95PW")
     )
+    (path "/00000000-0000-0000-0000-00005cec5dde/16664589-b1ce-432c-bed3-94078d89e855"
+      (reference "U?") (unit 1) (value "LT3652HVIMSE#PBF") (footprint "MSOP-12_MSE")
+    )
     (path "/00000000-0000-0000-0000-00005cec5a72/00000000-0000-0000-0000-00005d3985e2"
       (reference "Y1") (unit 1) (value "32.768kHz") (footprint "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm")
     )
