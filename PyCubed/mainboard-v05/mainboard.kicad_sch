@@ -987,7 +987,7 @@
       (reference "R36") (unit 1) (value "3.16K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005cec5dde/2ed505e9-4cd9-4071-ad66-4768f12f2b98"
-      (reference "R37") (unit 1) (value "1.73MΩ") (footprint "")
+      (reference "R37") (unit 1) (value "183MΩ") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005cec6476/00000000-0000-0000-0000-0000abc3816a"
       (reference "R38") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -999,7 +999,7 @@
       (reference "R40") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005cec5dde/df613b41-492f-4728-a295-2593edeb6cce"
-      (reference "R41") (unit 1) (value "270kΩ") (footprint "")
+      (reference "R41") (unit 1) (value "27kΩ") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005cec5a72/00000000-0000-0000-0000-00005d3dc34b"
       (reference "R42") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
