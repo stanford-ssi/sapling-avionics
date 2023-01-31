@@ -389,7 +389,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "X_Y_Panels.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
