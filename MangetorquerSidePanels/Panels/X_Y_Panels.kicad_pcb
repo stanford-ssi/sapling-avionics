@@ -4169,11 +4169,11 @@
     (attr smd)
     (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp af010830-9122-49b5-a95d-5092ac235234)
+      (tstamp d405c61c-2485-4a15-915e-c92975198b9f)
     )
     (fp_text value "logo_SSI_small" (at 0 1 unlocked) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp a9e0638e-54f0-4645-8591-860ac35b90f1)
+      (tstamp bd5b2e59-5ec1-4fd8-9b5f-c726f2aa121f)
     )
     (fp_poly (pts
         (xy 0.221867 -3.225489)
@@ -7903,7 +7903,7 @@
         (xy 0.067708 -3.22523)
         (xy 0.128385 -3.225625)
         (xy 0.16 -3.225667)
-      ) (layer "F.SilkS") (width 0) (fill solid) (tstamp fdfc917c-a117-4138-98df-3210a322cdcf))
+      ) (layer "F.SilkS") (width 0) (fill solid) (tstamp 4ff28cca-abc9-4afb-91ec-6a45c82b3d8a))
   )
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
