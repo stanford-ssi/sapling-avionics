@@ -2,4 +2,5 @@
   (lib (name "solar-panel-side-X-plus-rescue")(type "Legacy")(uri "C:/Users/grant/Desktop/Sapling/sapling-avionics/SolarPanelBoards/solar-panel-side-X-plus-rescue.lib")(options "")(descr ""))
   (lib (name "mainboard")(type "Legacy")(uri "C:/Users/grant/Desktop/Sapling/sapling-avionics/PyCubed/mainboard-v05/mainboard.lib")(options "")(descr ""))
   (lib (name "solar-panel-side-X-minus-rescue")(type "Legacy")(uri "C:/Users/grant/Desktop/Sapling/sapling-avionics/SolarPanelBoards/solar-panel-side-X-minus-rescue.lib")(options "")(descr ""))
+  (lib (name "Sapling_Side_Panels")(type "KiCad")(uri "${KIPRJMOD}/Sapling_Side_Panels.kicad_sym")(options "")(descr ""))
 )

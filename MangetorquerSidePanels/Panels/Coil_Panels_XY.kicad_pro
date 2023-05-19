@@ -382,7 +382,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "Coil_Panels_XY.step",
+      "step": "../../../../../Downloads/Coil_Panels_XY.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
